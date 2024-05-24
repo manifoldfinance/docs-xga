@@ -1,0 +1,13 @@
+mkdocs.yml
+*.min.js
+*.json
+*.css
+*.scss
+*.html
+.vercel/
+public/
+site/
+.github/
+*.txt
+*.xml
+*.csv

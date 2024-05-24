@@ -1,0 +1,18 @@
+mkdocs
+# GH_TOKEN is only exposed in production on Vercel
+mkdocs-material-extensions
+pygments
+# we install the insiders edition in the build script
+# mkdocs-material
+mkdocs-table-reader-plugin
+pymdown-extensions
+python-markdown-math
+mkdocs-literate-nav
+mkdocs-git-revision-date-localized-plugin
+mkdocs-render-swagger-plugin
+mkdocs-exclude
+mkdocs-macros-plugin
+mkdocs-material[imaging]
+mkdocs-minify-plugin
+mkdocs-redirects
+neoteroi-mkdocs
