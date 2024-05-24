@@ -1,0 +1,46 @@
+openapi: 3.0.0
+info:
+  title: Rated Network Ethereum API
+  version: '1.0'
+servers:
+  - url: https://api-docs.rated.network/rated-api
+paths:
+  /ethereum/self-report:
+    post:
+      summary: Report Ethereum validator public keys
+      description: >
+        Submit validator public keys for reporting. Each request can include up to 1,000 validator public keys.
+        Submit multiple requests to report more than 1,000 validators.
+      operationId: reportValidators
+      tags:
+        - Ethereum
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                validatorPublicKeys:
+                  type: array
+                  items:
+                    type: string
+                  description: Array of validator public keys to report.
+                  example: ['validatorPublicKey1', 'validatorPublicKey2']
+              required:
+                - validatorPublicKeys
+      responses:
+        '200':
+          description: Successfully reported validator public keys.
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: 'Validators reported successfully.'
+        '400':
+          description: Bad request, possibly due to exceeding the limit of 1,000 validator public keys.
+        '500':
+          description: Internal server error.

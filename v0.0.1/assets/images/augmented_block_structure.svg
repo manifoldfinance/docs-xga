@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:xl="http://www.w3.org/1999/xlink" viewBox="795.6776 208.5 289.1665 229" width="289.1665" height="229">
+  <defs>
+    <filter id="Shadow" filterUnits="userSpaceOnUse" x="766.7609" y="185.6">
+      <feGaussianBlur in="SourceAlpha" result="blur" stdDeviation="1.308"/>
+      <feOffset in="blur" result="offset" dx="0" dy="2"/>
+      <feFlood flood-color="black" flood-opacity=".5" result="flood"/>
+      <feComposite in="flood" in2="offset" operator="in"/>
+    </filter>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="Arrow_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -4 10 8" markerWidth="10" markerHeight="8" color="black">
+      <g>
+        <path d="M 8 0 L 0 -3 L 0 3 Z" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -5 2 10" markerWidth="2" markerHeight="10" color="black">
+      <g>
+        <line x1="0" y1="4" x2="0" y2="-4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+    <marker orient="auto" overflow="visible" markerUnits="strokeWidth" id="NegativeControls_Marker_2" stroke-linejoin="miter" stroke-miterlimit="10" viewBox="-1 -5 2 10" markerWidth="2" markerHeight="10" color="black">
+      <g>
+        <line x1="0" y1="-4" x2="0" y2="4" fill="none" stroke="currentColor" stroke-width="1"/>
+      </g>
+    </marker>
+  </defs>
+  <g id="MEV_Auction_Diagrams" fill-opacity="1" stroke-dasharray="none" fill="none" stroke="none" stroke-opacity="1">
+    <title>MEV Auction Diagrams</title>
+    <g id="MEV_Auction_Diagrams_Augmented_Block_Structure">
+      <title>Augmented Block Structure</title>
+      <g id="Graphic_10_shadow" filter="url(#Shadow)">
+        <rect x="918.5" y="227" width="130.14706" height="84.63904" fill="#a7feff"/>
+        <rect x="918.5" y="227" width="130.14706" height="84.63904" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_3_shadow" filter="url(#Shadow)">
+        <rect x="918.5" y="296" width="130.14706" height="78.13905" fill="#a6fca9"/>
+        <rect x="918.5" y="296" width="130.14706" height="78.13905" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_12">
+        <line x1="913.5381" y1="388.5" x2="913.5381" y2="218.9" marker-end="url(#Arrow_Marker)" marker-start="url(#NegativeControls_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Line_11">
+        <line x1="913.5381" y1="377.53165" x2="1059.0874" y2="377.03386" marker-end="url(#Arrow_Marker)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_10">
+        <rect x="918.5" y="227" width="130.14706" height="84.63904" fill="#a7feff"/>
+        <rect x="918.5" y="227" width="130.14706" height="84.63904" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(923.5 259.31952)" fill="black">
+          <tspan font-family="Menlo" font-size="16" fill="black" x="35.24912" y="16">⍺</tspan>
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" y="16"> block</tspan>
+        </text>
+      </g>
+      <g id="Line_9">
+        <line x1="1047.647" y1="377" x2="1047.647" y2="398.5" marker-end="url(#NegativeControls_Marker_2)" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_8">
+        <text transform="translate(1018.447 409)" fill="black">
+          <tspan font-family="JetBrains Mono" font-size="9" fill="black" x="2.7" y="9">30,000,000 </tspan>
+        </text>
+      </g>
+      <g id="Line_7">
+        <line x1="900.5381" y1="233.5" x2="913.5381" y2="233.5" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      </g>
+      <g id="Graphic_6">
+        <text transform="translate(1020.174 424.5)" fill="black">
+          <tspan font-family="Source Sans Pro" font-size="10" fill="black" x="0" y="10">Block (gaslimit)</tspan>
+        </text>
+      </g>
+      <g id="Graphic_4">
+        <text transform="translate(795.6776 289.5)" fill="black">
+          <tspan font-family="JetBrains Mono" font-size="11" fill="black" x="0" y="11">⋂ </tspan>
+          <tspan font-family="Source Sans Pro" font-size="10" fill="black" y="11">elastic  supply curve </tspan>
+        </text>
+      </g>
+      <g id="Graphic_3">
+        <rect x="918.5" y="296" width="130.14706" height="78.13905" fill="#a6fca9"/>
+        <rect x="918.5" y="296" width="130.14706" height="78.13905" stroke="black" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+        <text transform="translate(923.5 325.06952)" fill="black">
+          <tspan font-family="Source Sans Pro" font-size="16" fill="black" x="35.54553" y="16">β block</tspan>
+        </text>
+      </g>
+      <g id="Graphic_2">
+        <text transform="translate(824.1176 227)" fill="black">
+          <tspan font-family="Source Sans Pro" font-size="11" fill="black" x="3623768e-19" y="11">Max Priority fee</tspan>
+        </text>
+      </g>
+      <g id="Graphic_14">
+        <text transform="translate(910.4381 393)" fill="black">
+          <tspan font-family="JetBrains Mono" font-size="12" fill="black" x="36370906e-20" y="12">0</tspan>
+        </text>
+      </g>
+      <g id="Line_5">
+        <line x1="901.5381" y1="296" x2="1069.6203" y2="296" stroke="#ff2600" stroke-linecap="square" stroke-linejoin="miter" stroke-width="2"/>
+      </g>
+    </g>
+  </g>
+</svg>
