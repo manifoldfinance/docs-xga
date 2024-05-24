@@ -1,0 +1,16 @@
+{
+  "name": "docs-xga",
+  "version": "0.0.1",
+  "description": "mkdocs website for XGA",
+  "files": [
+    "docs",
+    "src"
+  ],
+  "repository": "https://github.com/manifoldfinance/docs-xga.git",
+  "author": "sam bacha <sam@manifoldfinance.com>",
+  "license": "SEE LICENSE IN LICENSE",
+  "private": false,
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

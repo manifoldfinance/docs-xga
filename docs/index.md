@@ -7,7 +7,7 @@ date: 2024-05-23
 # eXtensible Gas Auction (XGA)
 
 Multi-unit auctions, unlike their single-unit counterparts, present complex
-allocation mechanisms. The MEV Auction platform implements several innovative
+allocation mechanisms. TheXGA platform implements several innovative
 strategies:
 
 1. An enhanced uniform price auction,
