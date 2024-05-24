@@ -2,9 +2,8 @@
 title: Forward Contracts
 description: Forward Contracts in the Primary market
 tags: ["Forward Contracts", "gas auction", "mechanism design"]
+status: new
 ---
-
-## Forward Contracts
 
 ### Nature of the Forwards to be sold
 
@@ -13,7 +12,11 @@ contract, or transaction, to address constraint factors that influence demand fo
 blockspace). This instrument addresses the potential variability in the supply of available blockspace available for
 usage by different actors.
 
-The options refer to slices of the overall gas size of β-blockspace. We aim to homogenize it, i.e. all slices of gas are
+!!! note
+
+    "The built-in flexibility of this agreement aims to manage factors that affect the demand for transaction inclusion rights, commonly known as blockspace."
+
+The options allocate slices of the total gas size in β-blockspace. We aim to homogenize it, i.e. all slices of gas are
 equal and interchangeable. This is how the forward contract is exercised.
 
 The nature of the forwards we are selling under the β-blockspace market depends on the capacity restriction we impose.
@@ -24,7 +27,7 @@ large chunk of the overall remuneration we can achieve at all.
 
 !!! info "Figure 1: Tradeoff of ⍺/β-blockspace"
 
-    If we fix ⍺-blockspace, we might be missing a significant amount of value. The tradeoff can be seen in the picture below.
+    Fixing ⍺-blockspace could result in significant value loss. Figure 1 below illustrates this tradeoff between ⍺-blockspace and β-blockspace.
 
 ![tradeoff-⍺-vs-β-blockspace](../assets/images/illustration-tradeoff-alpha-beta.png)
 
@@ -35,14 +38,7 @@ marginal value for a builder owning the whole block (green) goes below the margi
 If we had perfect information, we could fix the capacity constraint at exactly the intersection point. But this
 information is not available. We can only approximate it. The question of lottery blocks can also be seen in the
 diagram, the question is whether for such a block both curves are shifted in the same way. If not, it would indicate the
-need to give ⍺-blockspace builders more space relative to β-blockspace builders.
-
-<!-- There is another aspect to consider. The larger the ⍺-blockspace part, the
-larger the possibility of including a txs in β-blockspace that will revert (due to state changes). This will
-degrade the value of the option to buy β-blockspace space. What is more, this might jeopardize the service
-as a whole. If builders get the impression that the service is not of sufficient quality, then they
-will stop using it. So there is also a reputation component - in particular at the beginning.
--->
+need to give ⍺-blockspace builders more space relative to β-blockspace builders[^1].
 
 ### Bidder characteristics
 
@@ -61,9 +57,10 @@ will stop using it. So there is also a reputation component - in particular at t
 ## Relation to the secondary market
 
 Traditionally we would assume that a well-designed auction does not require a secondary market. If the result of the
-auction is in the core, no change in the allocation makes sense. This is different here as information comes in
-overtime. - Base fee - Transactions updates for ⍺-blockspace bidders We operate under the assumption that position does
-not matter; if it does might affect the design significantly.
+auction is in the core, no change in the allocation makes sense. In this case, information evolves over time, which
+significantly impacts the auction dynamics. Base fees and transaction updates for ⍺-blockspace bidders are crucial
+factors to consider. We operate under the assumption that position does not matter; if it does might affect the design
+significantly.
 
 New bidders are active on the secondary market. The secondary market therefore is not just a reallocation of the primary
 auction but includes information updates.
@@ -71,3 +68,10 @@ auction but includes information updates.
 !!! note "Secondary Market Effects"
 
     This is in contrast to most work on auctions with resale (re: secondary) markets. The secondary market changes the rationale for bidding in the primary auction
+
+[^1]:
+    There is another aspect to consider. The larger the ⍺-blockspace part, the larger the possibility of including a txs
+    in β-blockspace that will revert (due to state changes). This wil degrade the value of the option to buy
+    β-blockspace space. What is more, this might jeopardize the service as a whole. If builders get the impression that
+    the service is not of sufficient quality, then they will stop using it. So there is also a reputation component - in
+    particular at the beginning.
