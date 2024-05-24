@@ -2,6 +2,7 @@
   "version": "0.2",
   "language": "en",
   "words": [
+    "blockspace",
     "bool",
     "uint",
     "uint8",
@@ -143,7 +144,6 @@
     "manifoldfinance",
     "manifoldx",
     "mathjax",
-    "meveth",
     "mkdocs",
     "multicall",
     "pathfile",
@@ -162,6 +162,11 @@
     "nixops",
     "alphanum",
     "clsx",
-    "copyof"
+    "copyof",
+    "permissioned",
+    "Ausubel",
+    "Licalzi",
+    "Calzi",
+    "gantt"
   ]
 }

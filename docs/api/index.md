@@ -8,9 +8,8 @@ API paths to resources are generally broken into multiple segments,
 
 -   `version`: can be v1.0 or beta.
 -   `category`: is a logical grouping of APIs into top-level categories.
--   `pathSegment`: is one or many navigation segments that can address an
-    entity, collection of entities, property, or operation available for an
-    entity.
+-   `pathSegment`: is one or many navigation segments that can address an entity, collection of entities, property, or
+    operation available for an entity.
 -   `query`: string must follow the OData standard for query representations
 
 ## RPC Methods Available
@@ -44,11 +43,10 @@ API paths to resources are generally broken into multiple segments,
 
 ## API Rate Limiting
 
-If you receive a rate limit error, you should stop making requests temporarily
-according to these guidelines:
+If you receive a rate limit error, you should stop making requests temporarily according to these guidelines:
 
-Continuing to make requests while you are rate limited may result in the banning
-of you, your family, and possibly your entire country.
+Continuing to make requests while you are rate limited may result in the banning of you, your family, and possibly your
+entire country.
 
 ## Exceeding the rate limit
 
@@ -58,19 +56,16 @@ of you, your family, and possibly your entire country.
 
     Reach out to us via Telegram or Email to get a rate limit increase if needed.
 
-If you exceed your primary rate limit, you will receive a `403` or `429`
-response, ~~and the `x-ratelimit-remaining` header will be `0`. You should not
-retry your request until after the time specified by the `x-ratelimit-reset`
+If you exceed your primary rate limit, you will receive a `403` or `429` response, ~~and the `x-ratelimit-remaining`
+header will be `0`. You should not retry your request until after the time specified by the `x-ratelimit-reset`
 header.~~
 
-If you exceed a secondary rate limit, you will receive a `403` or `429` response
-and an error message that indicates that you exceeded a secondary rate limit.
+If you exceed a secondary rate limit, you will receive a `403` or `429` response and an error message that indicates
+that you exceeded a secondary rate limit.
 
-~~If the `retry-after` response header is present, you should not retry your
-request until after that many seconds has elapsed. If the
-`x-ratelimit-remaining` header is `0`, you should not retry your request until
-after the time, in UTC epoch seconds, specified by the `x-ratelimit-reset`
-header.~~[^1]
+~~If the `retry-after` response header is present, you should not retry your request until after that many seconds has
+elapsed. If the `x-ratelimit-remaining` header is `0`, you should not retry your request until after the time, in UTC
+epoch seconds, specified by the `x-ratelimit-reset` header.~~[^1]
 
 [^1]: Response header for retry/rate limit is not yet available.
 

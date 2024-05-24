@@ -5,9 +5,8 @@ description: Mandatory values, settings and settings.
 
 ## Mandatory Values for Validator and Beacon clients
 
-**LocalBlockValueBoost** is the value boost for local block construction. This
-is used to prioritize local block construction over relay/builder block
-construction.
+**LocalBlockValueBoost** is the value boost for local block construction. This is used to prioritize local block
+construction over relay/builder block construction.
 
 ```toml
 LocalBlockValueBoost = 0

@@ -1,7 +1,6 @@
 ---
 title: Developer overview
-description:
-    Developer related information for builders, searchers and intergrators.
+description: Developer related information for builders, searchers and intergrators.
 ---
 
 ## General
