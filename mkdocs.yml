@@ -1,15 +1,20 @@
-# yamllint disable-line rule:line-length
+# yamllint disable rule:document-start
+# yamllint disable rule:line-length
+# yamllint disable rule:comments-indentation
 # yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
 
-repo_name: manifoldfinance/auction-platform-docs
-repo_url: https://github.com/manifoldfinance/auction-platform-docs
-site_author: Manifold Finance & 20squares
+repo_name: manifoldfinance/docs-xga
+repo_url: https://github.com/manifoldfinance/docs-xga
+site_author: Manifold Finance
 # yamllint disable-line rule:line-length
-site_description: MEV Auction documentation for builders, searchers and liquid staking protocols.
-site_name: XGA Auctions Documentation
+site_description: XGA documentation for builders, searchers and liquid staking protocols.
+site_name: XGA Documentation
 site_url: https://docs.xga.com
 # yamllint disable-line rule:line-length
-copyright: Manifold Finance, Inc, 20squares UG, and contributors. Creative Commons Attribution-NonCommercial-NoDerivs 2.5
+# Creative Commons Attribution-NonCommercial-NoDerivs 2.5
+copyright: >
+  Copyright &copy; 2022 - 2024 Manifold Finance, Inc.
+  <a href="#__consent">Change cookie settings</a>
 use_directory_urls: true
 
 theme:
@@ -23,7 +28,7 @@ theme:
     - content.code.copy
     # - content.code.select
     - content.footnote.tooltips
-    # - content.tabs.link
+    - content.tabs.link
     - content.tooltips
     # - header.autohide
     # - navigation.expand
@@ -54,8 +59,8 @@ theme:
         name: Switch to light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
-      accent: indigo
+      primary: blue-grey
+      accent: teal
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
@@ -66,9 +71,6 @@ theme:
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
-  font:
-    text: Roboto
-    code: Roboto Mono
 
 extra_css:
 #  - stylesheets/extra.css
@@ -84,10 +86,32 @@ extra_javascript:
 extra:
   is_insider: true
   generator: false
-  google:
-    site_verification:
-      - ''
-    tag_manager: ''
+  analytics:
+    provider: google
+    property: G-RWSFY7TBD5
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >-
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  consent:
+    actions:
+      - accept
+      - reject
+      - manage
+    cookies:
+      analytics:
+        name: Google Analytics
+        checked: false
 
 plugins:
   - search:

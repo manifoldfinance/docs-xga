@@ -4,11 +4,10 @@ sidebar_position: 1
 title: Auction SDK
 ---
 
-XGA auction winners are granted future block space via a token, which is used
-with submission of transactions for inclusion in the beta block. Budding bidders
-can register themselves with the protocol to participate in beta block auctions.
-Thereupon custom implementations will be required to bid and submit
-transactions. Technical details are provided herein.
+XGA auction winners are granted future block space via a token, which is used with submission of transactions for
+inclusion in the beta block. Budding bidders can register themselves with the protocol to participate in beta block
+auctions. Thereupon custom implementations will be required to bid and submit transactions. Technical details are
+provided herein.
 
 Technical Overview:
 
@@ -33,16 +32,14 @@ Full working examples are available for:
 -   **L2 RPC:**
 
     -   Description: L2 Node RPC
-    -   URL:
-        [https://xga-api.securerpc.com/v1](https://xga-api.securerpc.com/v1)
+    -   URL: [https://xga-api.securerpc.com/v1](https://xga-api.securerpc.com/v1)
     -   Methods: eth\_\*
     -   ChainId: 7890785
 
 -   **L2 RPC (TESTNET):**
 
     -   Description: L2 Node RPC (Testnet)
-    -   URL:
-        [https://holesky-api.securerpc.com/l2](https://holesky-api.securerpc.com/l2/)
+    -   URL: [https://holesky-api.securerpc.com/l2](https://holesky-api.securerpc.com/l2/)
     -   Methods: eth\_\*
     -   ChainId: 42169
 
@@ -88,8 +85,7 @@ SETTLEMENT="0x7Ac1A452B59114Fb1E67470720343A2e9AE18297"
 
 ### Registering a bidder
 
-Only registered bidders can participate in the auction. Operators can onboard
-new bidders through the contract.
+Only registered bidders can participate in the auction. Operators can onboard new bidders through the contract.
 
 To check for bidderId when registered, call `IdMap` on the contract:
 
@@ -192,8 +188,7 @@ contract MockBidder {
 -   **Beta bundle RPC:**
 
     -   Description: Beta bundle submission RPC
-    -   URL:
-        [https://mainnet-auction.securerpc.com/](https://mainnet-auction.securerpc.com/)
+    -   URL: [https://mainnet-auction.securerpc.com/](https://mainnet-auction.securerpc.com/)
     -   Method: mev_sendBetaBundle
     -   Parameters:
         -   `txs`: List of txs as bundle e.g. [0x2323...,]
@@ -202,8 +197,7 @@ contract MockBidder {
 
 -   **Beta bundle RPC (Testnet):**
     -   Description: Beta bundle submission RPC
-    -   URL:
-        [https://holesky-api.securerpc.com/v2](https://holesky-api.securerpc.com/v2)
+    -   URL: [https://holesky-api.securerpc.com/v2](https://holesky-api.securerpc.com/v2)
     -   Method: mev_sendBetaBundle
     -   Parameters:
         -   `txs`: List of txs as bundle e.g. [0x2323...,]
@@ -241,6 +235,5 @@ contract MockBidder {
 
 ## Bundler Examples
 
--   [Python bundler](https://github.com/MEV-Protocol/beta-bundles-py) - employs
-    a deployed bidder contract for continuous automated bidding, while listening
-    for auction close event, then submits the bundle
+-   [Python bundler](https://github.com/MEV-Protocol/beta-bundles-py) - employs a deployed bidder contract for
+    continuous automated bidding, while listening for auction close event, then submits the bundle

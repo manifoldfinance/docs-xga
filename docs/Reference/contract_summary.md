@@ -4,19 +4,16 @@ title: Contract Protocol summary
 
 ## Primary Market
 
-The **Auctioneer Contract** is a Solidity smart contract that implements an
-auction mechanism for selling block space. This contract allows bidders to
-participate in auctions, submit manual bids, and settle the auctions. It
-supports multiple bidders, each with a unique ID.
+The **Auctioneer Contract** is a Solidity smart contract that implements an auction mechanism for selling block space.
+This contract allows bidders to participate in auctions, submit manual bids, and settle the auctions. It supports
+multiple bidders, each with a unique ID.
 
 ## Key Features
 
 -   **Bidders:** Add and remove bidders dynamically.
 -   **Auctions:** Open and run auctions for selling block space.
--   **Manual Bids:** Bidders can submit manual bids with specific quantities and
-    prices.
--   **Settlement:** After the auction, settle with successful bidders,
-    transferring owed amounts.
+-   **Manual Bids:** Bidders can submit manual bids with specific quantities and prices.
+-   **Settlement:** After the auction, settle with successful bidders, transferring owed amounts.
 
 ## Contract Structure
 
@@ -34,8 +31,7 @@ supports multiple bidders, each with a unique ID.
 
 ## Errors
 
--   Various error messages to handle exceptional cases, such as invalid bids or
-    insufficient funds.
+-   Various error messages to handle exceptional cases, such as invalid bids or insufficient funds.
 
 ## Functions
 
@@ -43,12 +39,9 @@ supports multiple bidders, each with a unique ID.
 -   **removeBidder:** Remove a bidder from the auction.
 -   **openAuction:** Open a new auction for a specific slot.
 -   **bid:** Submit a bid for a specific auction slot.
--   **run:** Execute the auction for a specific slot, considering manual and
-    contract bids.
--   **settle:** Settle the auction by transferring owed amounts to successful
-    bidders.
--   **getBidderInfo:** Retrieve information about a bidder after auction
-    settlement.
+-   **run:** Execute the auction for a specific slot, considering manual and contract bids.
+-   **settle:** Settle the auction by transferring owed amounts to successful bidders.
+-   **getBidderInfo:** Retrieve information about a bidder after auction settlement.
 -   **packBid:** Pack bid details into a uint256 for submission.
 -   **decodeBid:** Decode packed bid information for analysis.
 -   **checkBid:** Check the validity of a bid before execution.
