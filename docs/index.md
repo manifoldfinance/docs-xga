@@ -6,23 +6,10 @@ hide:
     - navigation
 ---
 
-# Mechanisms make the market
+## Mechanisms make the market
 
 XGA is a platform that is compromised of a Optimism based Rollup, a smart contract protocol, an Ethereum concensus layer
 sidecar and a domain-specific engine called Open Games for proving/developing (game-specific) mechanisms.
-
-::cards::
-
--   title: Contract bidding content: Declaratively specify your bidding strategy and eliminate latency in your bidding.
-    image: ./assets/solidity.png
-
--   title: Open Games Engine content: Use Open Games to declare the game system and observe through <em>lenses</em>.
-    image: ./assets/addblock.png
-
--   title: Compositional game theory content: Decompose strategic interactions while guaranteeing results are
-    well-behaved. image: ./assets/opengames1.png
-
-::/cards::
 
 ## Extending Auction Design
 

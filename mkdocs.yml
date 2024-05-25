@@ -14,7 +14,6 @@ site_url: https://docs.xga.com
 # Creative Commons Attribution-NonCommercial-NoDerivs 2.5
 copyright: >
   Copyright &copy; 2022 - 2024 Manifold Finance, Inc.
-  <a href="#__consent">Change cookie settings</a>
 use_directory_urls: true
 
 theme:
@@ -24,10 +23,7 @@ theme:
   logo: assets/logo.svg
   favicon: assets/favicon.png
   icon:
-    logo: fontawesome/solid/sticky-note
     repo: fontawesome/brands/github
-  font:
-    code: JetBrains Mono
   features:
     - announce.dismiss
     - content.action.edit
@@ -128,8 +124,8 @@ plugins:
   - neoteroi.mkdocsoad:
       use_pymdownx: true
   - tags
-  - git-revision-date-localized:
-      type: timeago
+# - git-revision-date-localized:
+#     type: timeago
   - autolinks
   - section-index
   - mkdocs-newsletter
@@ -257,5 +253,3 @@ nav:
           - Clearing: Rulebook/network-clearing-participants.md
           - Obligations: Rulebook/obligations.md
           - Suspension: Rulebook/suspension.md
-  - Blog:
-    - blog/index.md
