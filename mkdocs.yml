@@ -124,11 +124,12 @@ plugins:
   - neoteroi.mkdocsoad:
       use_pymdownx: true
   - tags
+# Disable due to Cloudflare issues
 # - git-revision-date-localized:
 #     type: timeago
-  - autolinks
-  - section-index
-  - mkdocs-newsletter
+# - autolinks
+# - section-index
+# - mkdocs-newsletter
 
 markdown_extensions:
 # Built-in
