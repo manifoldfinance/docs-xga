@@ -1,0 +1,6 @@
+mkdocs-newsletter
+mkdocs-autolinks-plugin
+mkdocs-section-index
+mkdocs-git-revision-date-localized-plugin
+mkdocs-rss-plugin
+

@@ -1,0 +1,168 @@
+/**
+ * Light theme
+ * ===========
+ */
+ [data-md-color-scheme="default"] {
+    --md-primary-fg-color: #8C2166;
+    /* --md-primary-fg-color--light: #a7a4b2;
+    --md-primary-fg-color--dark: #1b1632; */
+
+
+    /* --md-accent-fg-color: #ff5f24;
+    --md-accent-fg-color--light: #ffb142;
+    --md-accent-fg-color--dark: #b33939; */
+
+    --md-default-bg-color: #ffffff;     /* same as color of hero-border-light.svg */
+
+    /* --md-typeset-a-color: var(--md-accent-fg-color); */
+}
+
+/**
+ * Dark theme
+ * ==========
+ * Needs to be named 'slate' for `--md-hue` to work.
+ */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color: #8C2166;
+    /*--md-hue: 260;
+
+    
+    --md-primary-fg-color--light: #a7a4b2;
+    --md-primary-fg-color--dark: #1b1632;
+
+    --md-accent-fg-color: #ff5f24;
+    --md-accent-fg-color--light: #ffb142;
+    --md-accent-fg-color--dark: #694545;*/
+
+    --md-default-bg-color: #2f2a3a;     /* same as color of hero-border-dark.svg */
+
+    /* --md-typeset-a-color: var(--md-accent-fg-color); */
+}
+
+/* Nicer headings */
+.md-typeset h1 {
+    font-weight: 400;
+    margin-bottom: 0.75em;
+}
+.md-typeset h2 {
+    font-weight: 400;
+    margin-bottom: 0.75em;
+}
+/* Nicer buttons */
+.md-typeset .md-button {
+    border-radius: 0.5rem;
+}
+/** Use as: class="md-button md-button-small" */
+.md-typeset .md-button-small {
+    font-weight: 500;
+    padding: .2em .8em;
+}
+/** Use as: class="md-button md-button-disabled" */
+.md-typeset .md-button-disabled {
+    /** TODO: Derive these colors from the theme. */
+    border-color: #ccc;
+    background-color: #ccc;
+    color: black;
+    pointer-events: none;
+    cursor: default;
+}
+
+/* More compact tables */
+.md-typeset table:not([class]) th, .md-typeset table:not([class]) td {
+    padding: .5em 1em;
+}
+
+/* Makes a table inside a <div> 100% width */
+.full-width table, .full-width .md-typeset__table {
+    width: 100%;
+}
+.md-typeset .full-width table:not([class]) {
+    display: table;
+}
+/* Makes columns of a three-column table 20%+60%+20% */
+.t262 table th:nth-of-type(1) {
+    width: 20%;
+}
+.t262 table th:nth-of-type(2) {
+    width: 60%;
+}
+.t262 table th:nth-of-type(3) {
+    width: 20%;
+}
+.md-typeset .t262  table:not([class]) td {
+    vertical-align: middle;
+}
+
+.md-button-download {
+    width: 200px;
+    text-align: center;
+    margin: 0.15em 0 0.15em 0;
+}
+.md-button-download .twemoji {
+    font-size: 2em;
+}
+.md-button-download .small-icons {
+    font-size: 1em;
+    vertical-align: bottom;
+}
+.md-button-download .small-icons .twemoji {
+    font-size: inherit;
+}
+.wrap code {
+    word-wrap: break-word;
+    white-space: normal;
+}
+.md-typeset a.white-link {
+    color: white;
+}
+.md-typeset a.white-link:hover{
+    color: var(--md-accent-fg-color);
+    transition: transform .4s cubic-bezier(.1,.7,.1,1),opacity .25s;
+}
+.no-ligatures code {
+    font-variant-ligatures: none;
+}
+code.no-ligatures {
+    font-variant-ligatures: none;
+}
+
+.md-header__topic a {
+    transition: opacity .25s;
+}
+.md-header__topic a:hover {
+    opacity: 0.7;
+}
+
+.guilabel {
+    border: 1px solid var(--md-accent-fg-color);
+    background: var(--md-code-bg-color);
+    font-size: 80%;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 1px 3px;
+    margin: auto 1px;
+}
+
+
+.true, .recommended {
+    color: #28a745;
+}
+.trace {
+}
+.debug {
+}
+.available {
+
+}
+.info {
+    color: #00b8d4;
+}
+.warning {
+    color: #ffc107;
+}
+.deprecated {
+    color: #6c757d;
+}
+.error, .stop, .false, .unsupported {
+    color: #dc3545;
+}
