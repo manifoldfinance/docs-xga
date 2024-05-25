@@ -47,3 +47,22 @@ The engine has two main components:
 
 -   There is a way of stitching together the different components which mainly works along two time dimensions:
     simultaneous and sequential composition.
+
+```mermaid
+gantt
+    title Future auction for `below`
+    dateFormat YY-MM
+    axisFormat %m
+    tickInterval 1month
+    section Epoch i
+        We know slots for Epoch i+2 are 03,08 and 11 : crit, done, milestone, 00-01, 1m
+        Auction for `below`, slots 03,08,11 : 00-01, 6M
+        Futures awarded : milestone, 00-07, 1m
+        Users can transact: active, 00-07, 6M
+    section Epoch i+1
+        Users can transact: active, 01-01, 12M
+    section Epoch i+2
+        Slot 03, future can be used : crit, active, milestone, 02-03, 1
+        Slot 08, future can be used : crit, active, milestone, 02-08, 1
+        Slot 11, future can be used : crit, active, milestone, 02-11, 1
+```

@@ -51,15 +51,13 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-# breadcrumbs
     - navigation.indexes
     - navigation.path
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-# keep TOC on righthand side enabled
-    - toc.integrate
+
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -113,6 +111,9 @@ extra:
       analytics:
         name: Google Analytics
         checked: false
+  social:
+    - icon: fontawesome/solid/rss
+      link: https://your.site/newsletter/0_newsletter_index/
 
 plugins:
   - search:
@@ -121,12 +122,17 @@ plugins:
       lang: 'en'
 #  - macros:
 #      module_name: .docs/macros/includes/main
-  - blog:
-      post_url_format: "{categories}/{slug}"
-      post_url_max_categories: 2
+# - blog:
+#     post_url_format: "{categories}/{slug}"
+#     post_url_max_categories: 2
   - neoteroi.mkdocsoad:
       use_pymdownx: true
   - tags
+  - git-revision-date-localized:
+      type: timeago
+  - autolinks
+  - section-index
+  - mkdocs-newsletter
 
 markdown_extensions:
 # Built-in
@@ -190,6 +196,7 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
+      baselevel: 2
   - neoteroi.spantable
   - neoteroi.cards
 
@@ -251,4 +258,4 @@ nav:
           - Obligations: Rulebook/obligations.md
           - Suspension: Rulebook/suspension.md
   - Blog:
-      - blog/index.md
+    - blog/index.md

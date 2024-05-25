@@ -7,7 +7,6 @@ pygments
 mkdocs-table-reader-plugin
 pymdown-extensions
 python-markdown-math
-mkdocs-literate-nav
 mkdocs-git-revision-date-localized-plugin
 mkdocs-render-swagger-plugin
 mkdocs-exclude
@@ -16,3 +15,8 @@ mkdocs-material[imaging]
 mkdocs-minify-plugin
 mkdocs-redirects
 neoteroi-mkdocs
+mkdocs-newsletter
+mkdocs-autolinks-plugin
+mkdocs-section-index
+mkdocs-git-revision-date-localized-plugin
+mkdocs-rss-plugin

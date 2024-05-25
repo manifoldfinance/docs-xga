@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -o -u pipefail
+set -o -u
 
 echo " ✔︎ Staring Build process.."
 echo ""
@@ -38,9 +38,9 @@ date "+%Y-%m-%dT%H:%M:%S%z" > site/build_id.txt
 #mike deploy v0.1.1
 
 
-cp platform-docs.xml site/.well-known/platform-docs.xml
-cp commit-ts.txt site/.well-known/commit-ts.txt
-cp sitemap.xml site/sitemap.xml
+#p platform-docs.xml site/.well-known/platform-docs.xml
+#cp commit-ts.txt site/.well-known/commit-ts.txt
+#cp sitemap.xml site/sitemap.xml
 
 
 header "Next Steps\n"
@@ -49,3 +49,4 @@ echo "Build Artifact is available at: site/build_id.txt"
 sleep 1
 
 echo "Build completed successfully"
+exit 0
