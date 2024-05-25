@@ -2,9 +2,31 @@
 title: XGA Auction Platform
 description: The Gang Designs the Ultimate Auction
 subtitle: eXtensible Gas Auction
+hide:
+    - navigation
 ---
 
-Multi-unit auctions, unlike their single-unit counterparts, present complex allocation mechanisms. TheXGA platform
+# Mechanisms make the market
+
+XGA is a platform that is compromised of a Optimism based Rollup, a smart contract protocol, an Ethereum concensus layer
+sidecar and a domain-specific engine called Open Games for proving/developing (game-specific) mechanisms.
+
+::cards::
+
+-   title: Contract bidding content: Declaratively specify your bidding strategy and eliminate latency in your bidding.
+    image: ./assets/solidity.png
+
+-   title: Open Games Engine content: Use Open Games to declare the game system and observe through <em>lenses</em>.
+    image: ./assets/addblock.png
+
+-   title: Compositional game theory content: Decompose strategic interactions while guaranteeing results are
+    well-behaved. image: ./assets/opengames1.png
+
+::/cards::
+
+## Extending Auction Design
+
+Multi-unit auctions, unlike their single-unit counterparts, present complex allocation mechanisms. XGA platform
 implements several innovative strategies:
 
 1. An enhanced uniform price auction,
@@ -35,28 +57,16 @@ priced differently.
     and below represent two very different markets: The first serves strategic actors, whereas the second serves
     'everyone else' - people not interested in speculation that just want to transact, e.g., to pay for stuff.[^2]
 
-```mermaid
-gantt
-    title Future auction for `below`
-    dateFormat YY-MM
-    axisFormat %m
-    tickInterval 1month
-    section Epoch i
-        We know slots for Epoch i+2 are 03,08 and 11 : crit, done, milestone, 00-01, 1m
-        Auction for `below`, slots 03,08,11 : 00-01, 6M
-        Futures awarded : milestone, 00-07, 1m
-        Users can transact: active, 00-07, 6M
-    section Epoch i+1
-        Users can transact: active, 01-01, 12M
-    section Epoch i+2
-        Slot 03, future can be used : crit, active, milestone, 02-03, 1
-        Slot 08, future can be used : crit, active, milestone, 02-08, 1
-        Slot 11, future can be used : crit, active, milestone, 02-11, 1
-```
+The Auction platform uses the [SecureRPC.com](https://securerpc.com) relay, in which permissioned validator sets
+configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only _partialy_ privileged
+in that the validator can still receive bids from other relays. In the event that the SecureRPC relay does not respond
+within a certain _stall time_, the validator can accept external bids. This eliminates the risk of potentially loosing
+money should the relay and validator experience a service disruption: the existing MEV Boost Auction **always** takes
+place.
 
-The Auction platform uses the [SecureRPC.com](https://securerpc.com) relay, in which permissioned validator sets use
-exclusively[^3]. As such, we will know 2 epochs in advance in which slots we will mint a block. Therefore, we can sell a
-proportion of blockspace 2 epochs in advance, enabling a forward call market for _β-blockspace_.
+The relay coordinates with registered validators such that it can be queried we will know 2 epochs in advance in which
+slots we will mint a block. Therefore, we can sell a proportion of blockspace 2 epochs in advance, enabling a forward
+call market for _β-blockspace_.
 
 ### **Elastic Supply Schedule**
 
@@ -79,7 +89,7 @@ overall price you pay.
 
 The real danger of severe under-pricing hinges on demand factors, which are often unpredictable and not easily deduced
 from existing data. The debate over whether discriminatory or uniform price auctions yield higher revenue remains
-unresolved, both theoretically (as discussed by _Ausubel_ et al. 2011) and empirically.
+unresolved, both theoretically (as discussed by _Ausubel_ et al. 2011)[^5] and empirically.
 
 ### Tie Breaking Rule
 
@@ -99,7 +109,7 @@ $S:P→Q$
 Thus we have different offering quantities of options.
 
 The supply function is designed to be initially concave, then constant at maximum capacity. This approach, theoretically
-supported by Licalzi (2005)[^5], aims to mitigate dramatic underpricing.
+supported by Licalzi[^6], aims to mitigate dramatic underpricing.
 
 ### Footnotes
 
@@ -112,5 +122,11 @@ supported by Licalzi (2005)[^5], aims to mitigate dramatic underpricing.
     President and Fellows of Harvard College, vol. 93(4), pages 675-689.
 
 [^5]:
+    L. Ausubel and P. Cramton, “Design of a Suitable Auction Format for Competitive Sale of Alternative Energy Leases on
+    the OCS (AE Auction Design Study, Paper 2 of 3) Multiple Factor Auction Design for Wind Rights,” 2011. Accessed:
+    Jan. 02, 2023. [Online]. Available:
+    https://www.boem.gov/sites/default/files/uploadedFiles/BOEM/Renewable_Energy_Program/Regulatory_Information/AusubelCramtonPaper2.pdf
+
+[^6]:
     Marco LiCalzi, 2005. <A HREF="https://doi.org/10.1016/S0014-2921(02)00324-0">"Tilting the supply schedule to enhance
     competition in uniform-price auctions"</A> European Economic Review, Volume 49, Issue 1, 2005, Pages 227-250

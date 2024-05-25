@@ -1668,3 +1668,14 @@
 .nt-contribs .nt-group-49 {
   background-color: var(--nt-color-49);
 }
+
+/** Content Area Width
+
+@see <https://squidfunk.github.io/mkdocs-material/setup/setting-up-navigation/#content-area-width>
+
+*/
+
+.md-grid {
+  max-width: 1440px; 
+}
+

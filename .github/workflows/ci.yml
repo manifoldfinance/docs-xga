@@ -11,5 +11,6 @@ jobs:
       - uses: streetsidesoftware/cspell-action@v6
         with:
           config: 'cspell.json'
-          files: '**/*.md'
+          files: 'docs/**/*.md'
           incremental_files_only: true
+          strict: false

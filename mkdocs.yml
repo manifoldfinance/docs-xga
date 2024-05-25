@@ -19,7 +19,15 @@ use_directory_urls: true
 
 theme:
   name: material
-#  custom_dir: .docs/overrides/
+  custom_dir: overrides
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  icon:
+    logo: fontawesome/solid/sticky-note
+    repo: fontawesome/brands/github
+  font:
+    code: JetBrains Mono
   features:
     - announce.dismiss
     - content.action.edit
@@ -43,15 +51,13 @@ theme:
     - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
-# breadcrumbs
     - navigation.indexes
     - navigation.path
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-# keep TOC on righthand side enabled
-    - toc.integrate
+
   palette:
     - media: "(prefers-color-scheme)"
       toggle:
@@ -77,9 +83,7 @@ extra_css:
   - stylesheets/neoteroi-mkdocs.css
 
 extra_javascript:
-  - javascripts/extra.js
-# mathjax snippet is loaded in extra.js
-#  - javascripts/mathjax.js
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
@@ -103,15 +107,13 @@ extra:
           note: >-
             Thanks for your feedback! Help us improve this page by
             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
-  consent:
-    actions:
-      - accept
-      - reject
-      - manage
     cookies:
       analytics:
         name: Google Analytics
         checked: false
+  social:
+    - icon: fontawesome/solid/rss
+      link: https://your.site/newsletter/0_newsletter_index/
 
 plugins:
   - search:
@@ -120,12 +122,17 @@ plugins:
       lang: 'en'
 #  - macros:
 #      module_name: .docs/macros/includes/main
-  - blog:
-      post_url_format: "{categories}/{slug}"
-      post_url_max_categories: 2
+# - blog:
+#     post_url_format: "{categories}/{slug}"
+#     post_url_max_categories: 2
   - neoteroi.mkdocsoad:
       use_pymdownx: true
-
+  - tags
+  - git-revision-date-localized:
+      type: timeago
+  - autolinks
+  - section-index
+  - mkdocs-newsletter
 
 markdown_extensions:
 # Built-in
@@ -161,7 +168,7 @@ markdown_extensions:
       normalize_issue_symbols: true
       provider: github
       user: manifoldfinance
-      repo: auction-platform-docs
+      repo: docs-xga
   - pymdownx.mark
   - pymdownx.critic
   - pymdownx.caret
@@ -175,6 +182,10 @@ markdown_extensions:
   - meta
   - md_in_html
   - abbr
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span
@@ -185,6 +196,7 @@ markdown_extensions:
   - toc:
       permalink: true
       toc_depth: 3
+      baselevel: 2
   - neoteroi.spantable
   - neoteroi.cards
 
@@ -201,6 +213,7 @@ nav:
   - Learning:
   #    - Flashbots Comparison: Learning/flashbots-comparison.md
       - Auction Design: Learning/aup_auction.md
+      - Primary Market: Learning/primary-market.md
       - Forward Contracts: Learning/Forward-Contracts.md
   # Disable Article
   #      - 'Secondary Market': 'Learning/secondary-market.md'
@@ -245,4 +258,4 @@ nav:
           - Obligations: Rulebook/obligations.md
           - Suspension: Rulebook/suspension.md
   - Blog:
-      - blog/index.md
+    - blog/index.md
