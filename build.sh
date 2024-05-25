@@ -11,6 +11,10 @@ header() { echo -e "\n\033[1m$1\033[0m"; }
 
 header "Loading Build Enviornment...\n"
 
+
+git fetch --unshallow 
+git config user.name github-actions[bot]
+git config user.email 41898282+github-actions[bot]@users.noreply.github.com
 python3 -m venv docs-venv
 # shellcheck source=docs-venv/bin/activate
 # shellcheck disable=SC1091
