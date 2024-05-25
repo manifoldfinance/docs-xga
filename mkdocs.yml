@@ -19,7 +19,15 @@ use_directory_urls: true
 
 theme:
   name: material
-#  custom_dir: .docs/overrides/
+  custom_dir: overrides
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/favicon.png
+  icon:
+    logo: fontawesome/solid/sticky-note
+    repo: fontawesome/brands/github
+  font:
+    code: JetBrains Mono
   features:
     - announce.dismiss
     - content.action.edit
@@ -77,9 +85,7 @@ extra_css:
   - stylesheets/neoteroi-mkdocs.css
 
 extra_javascript:
-  - javascripts/extra.js
-# mathjax snippet is loaded in extra.js
-#  - javascripts/mathjax.js
+  - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
@@ -120,7 +126,7 @@ plugins:
       post_url_max_categories: 2
   - neoteroi.mkdocsoad:
       use_pymdownx: true
-
+  - tags
 
 markdown_extensions:
 # Built-in
@@ -156,7 +162,7 @@ markdown_extensions:
       normalize_issue_symbols: true
       provider: github
       user: manifoldfinance
-      repo: auction-platform-docs
+      repo: docs-xga
   - pymdownx.mark
   - pymdownx.critic
   - pymdownx.caret
@@ -170,6 +176,10 @@ markdown_extensions:
   - meta
   - md_in_html
   - abbr
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
       line_spans: __span

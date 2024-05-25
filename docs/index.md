@@ -4,7 +4,14 @@ description: The Gang Designs the Ultimate Auction
 subtitle: eXtensible Gas Auction
 ---
 
-Multi-unit auctions, unlike their single-unit counterparts, present complex allocation mechanisms. TheXGA platform
+# Mechanisms make the market
+
+XGA is a platform that is compromised of a Optimism based Rollup, a smart contract protocol, an Ethereum concensus layer
+sidecar and a domain-specific engine called Open Games for proving/developing (game-specific) mechanisms.
+
+## Extending Auction Design
+
+Multi-unit auctions, unlike their single-unit counterparts, present complex allocation mechanisms. XGA platform
 implements several innovative strategies:
 
 1. An enhanced uniform price auction,
