@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    
+    <title>XGA Documentation</title>
+    <description>XGA documentation for builders, searchers and liquid staking protocols.</description>
+    <link>https://docs.xga.com</link>
+    <atom:link href="https://docs.xga.com/daily.xml" rel="self" type="application/rss+xml"/>
+
+    
+    <managingEditor>Manifold Finance</managingEditor>
+
+    
+    <pubDate>2024-05-25 14:11:32+00:00</pubDate>
+    <ttl>1440</ttl>
+
+    
+    <generator>mkdocs-newsletter - v1.1.0</generator>
+
+    
+    
+    <image><url>https://docs.xga.com/assets/logo.svg</url><title>XGA Documentation</title>
+      <link>https://docs.xga.com</link>
+    </image>
+    
+
+    
+    
+    <item><title>Other¶</title>
+      <author>Manifold Finance</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;
+&lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/manifoldfinance/docs-xga/edit/master/docs/newsletter/2024_05_25.md&#34; title=&#34;Edit this page&#34;&gt;
+&lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/a&gt;
+&lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/manifoldfinance/docs-xga/raw/master/docs/newsletter/2024_05_25.md&#34; title=&#34;View source of this page&#34;&gt;
+&lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New: Init landing pass.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class=&#34;md-source-file&#34;&gt;
+&lt;span class=&#34;md-source-file__fact&#34;&gt;
+&lt;span class=&#34;md-icon&#34; title=&#34;Last update&#34;&gt;
+&lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2024-05-25T14:11:32+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2024-05-25&lt;/span&gt;
+&lt;/span&gt;
+&lt;/aside&gt;
+&lt;form class=&#34;md-feedback&#34; hidden=&#34;&#34; name=&#34;feedback&#34;&gt;
+&lt;fieldset&gt;
+&lt;legend class=&#34;md-feedback__title&#34;&gt;
+        Was this page helpful?
+      &lt;/legend&gt;
+
+&lt;/fieldset&gt;
+&lt;/form&gt;
+&lt;/article&gt;</description>
+      <link>https://docs.xga.com/newsletter/2024_05_25/</link>
+      <pubDate>2024-05-25 14:11:32+00:00</pubDate>
+      <source url="https://docs.xga.com/daily.xml">XGA Documentation</source>
+      <guid isPermaLink="true">https://docs.xga.com/newsletter/2024_05_25/</guid>
+      
+    </item>
+    
+    <item><title>Other¶</title>
+      <author>Manifold Finance</author>
+      <description>&lt;article class=&#34;md-content__inner md-typeset&#34;&gt;
+&lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/manifoldfinance/docs-xga/edit/master/docs/newsletter/2024_05_24.md&#34; title=&#34;Edit this page&#34;&gt;
+&lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M10 20H6V4h7v5h5v3.1l2-2V8l-6-6H6c-1.1 0-2 .9-2 2v16c0 1.1.9 2 2 2h4v-2m10.2-7c.1 0 .3.1.4.2l1.3 1.3c.2.2.2.6 0 .8l-1 1-2.1-2.1 1-1c.1-.1.2-.2.4-.2m0 3.9L14.1 23H12v-2.1l6.1-6.1 2.1 2.1Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/a&gt;
+&lt;a class=&#34;md-content__button md-icon&#34; href=&#34;https://github.com/manifoldfinance/docs-xga/raw/master/docs/newsletter/2024_05_24.md&#34; title=&#34;View source of this page&#34;&gt;
+&lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M17 18c.56 0 1 .44 1 1s-.44 1-1 1-1-.44-1-1 .44-1 1-1m0-3c-2.73 0-5.06 1.66-6 4 .94 2.34 3.27 4 6 4s5.06-1.66 6-4c-.94-2.34-3.27-4-6-4m0 6.5a2.5 2.5 0 0 1-2.5-2.5 2.5 2.5 0 0 1 2.5-2.5 2.5 2.5 0 0 1 2.5 2.5 2.5 2.5 0 0 1-2.5 2.5M9.27 20H6V4h7v5h5v4.07c.7.08 1.36.25 2 .49V8l-6-6H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h4.5a8.15 8.15 0 0 1-1.23-2Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/a&gt;
+
+&lt;ul&gt;
+&lt;li&gt;New: Inital commit.&lt;/li&gt;
+&lt;li&gt;New: Init.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;aside class=&#34;md-source-file&#34;&gt;
+&lt;span class=&#34;md-source-file__fact&#34;&gt;
+&lt;span class=&#34;md-icon&#34; title=&#34;Last update&#34;&gt;
+&lt;svg viewbox=&#34;0 0 24 24&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34;&gt;&lt;path d=&#34;M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z&#34;&gt;&lt;/path&gt;&lt;/svg&gt;
+&lt;/span&gt;
+&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago&#34;&gt;&lt;span class=&#34;timeago&#34; datetime=&#34;2024-05-25T14:11:32+00:00&#34; locale=&#34;en&#34;&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date&#34;&gt;2024-05-25&lt;/span&gt;
+&lt;/span&gt;
+&lt;/aside&gt;
+&lt;form class=&#34;md-feedback&#34; hidden=&#34;&#34; name=&#34;feedback&#34;&gt;
+&lt;fieldset&gt;
+&lt;legend class=&#34;md-feedback__title&#34;&gt;
+        Was this page helpful?
+      &lt;/legend&gt;
+
+&lt;/fieldset&gt;
+&lt;/form&gt;
+&lt;/article&gt;</description>
+      <link>https://docs.xga.com/newsletter/2024_05_24/</link>
+      <pubDate>2024-05-25 14:11:32+00:00</pubDate>
+      <source url="https://docs.xga.com/daily.xml">XGA Documentation</source>
+      <guid isPermaLink="true">https://docs.xga.com/newsletter/2024_05_24/</guid>
+      
+    </item>
+    
+  </channel>
+</rss>

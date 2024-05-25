@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    
+    <title>XGA Documentation</title>
+    <description>XGA documentation for builders, searchers and liquid staking protocols.</description>
+    <link>https://docs.xga.com</link>
+    <atom:link href="https://docs.xga.com/yearly.xml" rel="self" type="application/rss+xml"/>
+
+    
+    <managingEditor>Manifold Finance</managingEditor>
+
+    
+    <pubDate>2024-05-25 07:19:27.521648</pubDate>
+    <ttl>525600</ttl>
+
+    
+    <generator>mkdocs-newsletter - v1.1.0</generator>
+
+    
+    
+    <image><url>https://docs.xga.com/assets/logo.svg</url><title>XGA Documentation</title>
+      <link>https://docs.xga.com</link>
+    </image>
+    
+
+    
+    
+  </channel>
+</rss>

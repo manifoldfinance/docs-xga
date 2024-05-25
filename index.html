@@ -19,7 +19,7 @@
         <link rel="next" href="Developers/">
       
       
-      <link rel="icon" href="assets/images/favicon.png">
+      <link rel="icon" href="assets/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.24">
     
     
@@ -45,10 +45,12 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"JetBrains Mono"}</style>
       
     
+    
+      <link rel="stylesheet" href="css/timeago.css">
     
       <link rel="stylesheet" href="stylesheets/neoteroi-mkdocs.css">
     
@@ -63,12 +65,31 @@
 
 <script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","G-RWSFY7TBD5"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","G-RWSFY7TBD5",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=G-RWSFY7TBD5",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
   
-    <script>var consent;"undefined"==typeof __md_analytics||(consent=__md_get("__consent"))&&consent.analytics&&__md_analytics()</script>
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
   
 
     
     
     
+
+<!-- Determine title -->
+
+<!-- prettier-ignore -->
+
+
+
+
+<!-- Open graph meta tags -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="XGA Documentation" />
+<meta property="og:description" content="XGA documentation for builders, searchers and liquid staking protocols." />
+<meta property="og:url" content="https://docs.xga.com/" />
+<meta property="og:image" content="https://repository-images.githubusercontent.com/373448219/bb3bb300-d8ee-11eb-9991-a5080ae2657c" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1080" />
+<meta property="og:image:height" content="568" />
+
+
   </head>
   
   
@@ -88,7 +109,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#block-structure" class="md-skip">
+        <a href="#mechanisms-make-the-market" class="md-skip">
           Skip to content
         </a>
       
@@ -106,8 +127,7 @@
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="." title="XGA Documentation" class="md-header__button md-logo" aria-label="XGA Documentation" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="assets/logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -221,7 +241,7 @@
         <a href="https://github.com/manifoldfinance/docs-xga" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
   </div>
   <div class="md-source__repository">
     manifoldfinance/docs-xga
@@ -360,19 +380,16 @@
   
   
   
-    
-    
-      <li class="md-tabs__item">
-        <a href="Legal/" class="md-tabs__link">
-          
+    <li class="md-tabs__item">
+      <a href="Legal/" class="md-tabs__link">
+        
   
     
   
   Legal
 
-        </a>
-      </li>
-    
+      </a>
+    </li>
   
 
       
@@ -380,19 +397,33 @@
   
   
   
-    
-    
-      <li class="md-tabs__item">
-        <a href="blog/" class="md-tabs__link">
-          
+    <li class="md-tabs__item">
+      <a href="blog/" class="md-tabs__link">
+        
   
     
   
   Blog
 
-        </a>
-      </li>
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="newsletter/0_newsletter_index/" class="md-tabs__link">
+        
+  
     
+  
+  Newsletters
+
+      </a>
+    </li>
   
 
       
@@ -413,7 +444,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -422,14 +455,11 @@
   
 
 
-  
-
-<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
     <a href="." title="XGA Documentation" class="md-nav__button md-logo" aria-label="XGA Documentation" data-md-component="logo">
       
-  
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+  <img src="assets/logo.svg" alt="logo">
 
     </a>
     XGA Documentation
@@ -439,7 +469,7 @@
       <a href="https://github.com/manifoldfinance/docs-xga" title="Go to repository" class="md-source" data-md-component="source">
   <div class="md-source__icon md-icon">
     
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
   </div>
   <div class="md-source__repository">
     manifoldfinance/docs-xga
@@ -496,6 +526,24 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mechanisms-make-the-market" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mechanisms make the market
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extending-auction-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extending Auction Design
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#block-structure" class="md-nav__link">
@@ -804,6 +852,8 @@
       
         
       
+        
+      
     
     
       
@@ -867,12 +917,40 @@
   
   
     <li class="md-nav__item">
+      <a href="Learning/primary-market/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Primary Market
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="Learning/Forward-Contracts/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     Forward Contracts
   </span>
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
   
 
       </a>
@@ -1584,10 +1662,6 @@
     
       
         
-          
-        
-      
-        
       
         
       
@@ -1637,8 +1711,6 @@
             Legal
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
             
               
                 
@@ -1742,10 +1814,10 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_5" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_4" >
         
           
-          <label class="md-nav__link" for="__nav_7_5" id="__nav_7_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_7_4" id="__nav_7_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1756,8 +1828,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_7_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7_4">
             <span class="md-nav__icon md-icon"></span>
             Rulebook
           </label>
@@ -1952,61 +2024,73 @@
   
   
   
-    
-    
-      
+    <li class="md-nav__item">
+      <a href="blog/" class="md-nav__link">
         
-          
-        
-      
-        
-      
-        
-      
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
-        
-          
-          
-          <div class="md-nav__link md-nav__container">
-            <a href="blog/" class="md-nav__link ">
-              
   
   <span class="md-ellipsis">
     Blog
   </span>
   
 
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9" >
+        
+          
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="newsletter/0_newsletter_index/" class="md-nav__link ">
+              
+  
+  <span class="md-ellipsis">
+    Newsletters
+  </span>
+  
+
             </a>
             
               
-              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+              <label class="md-nav__link " for="__nav_9" id="__nav_9_label" tabindex="0">
                 <span class="md-nav__icon md-icon"></span>
               </label>
             
           </div>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
             <span class="md-nav__icon md-icon"></span>
-            Blog
+            Newsletters
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
-            
-              
             
               
                 
@@ -2033,24 +2117,24 @@
         
           
         
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_2" >
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9_1" >
         
           
-          <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_9_1" id="__nav_9_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
-    Archive
+    2024
   </span>
   
 
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_9_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1">
             <span class="md-nav__icon md-icon"></span>
-            Archive
+            2024
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
             
@@ -2059,15 +2143,128 @@
   
   
   
+  
     
+    
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1_1" id="__nav_9_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    May of 2024
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_9_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            May of 2024
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_9_1_1_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_9_1_1_1" id="__nav_9_1_1_1_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    21st Week of 2024
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_9_1_1_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9_1_1_1">
+            <span class="md-nav__icon md-icon"></span>
+            21st Week of 2024
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
   
   
     <li class="md-nav__item">
-      <a href="blog/archive/2024/" class="md-nav__link">
+      <a href="newsletter/2024_05_25/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    2024
+    25th May 2024
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="newsletter/2024_05_24/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    24th May 2024
   </span>
   
 
@@ -2085,95 +2282,9 @@
 
               
             
-              
-                
-  
-  
-  
-  
-    
-    
+          </ul>
+        </nav>
       
-        
-      
-        
-      
-    
-    
-      
-      
-        
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-        
-        
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8_3" >
-        
-          
-          <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Categories
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_3">
-            <span class="md-nav__icon md-icon"></span>
-            Categories
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="blog/category/announcements/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    announcements
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-    
-  
-  
-    <li class="md-nav__item">
-      <a href="blog/category/changelog/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    changelog
-  </span>
-  
-
-      </a>
     </li>
   
 
@@ -2201,6 +2312,149 @@
               </div>
             
             
+              
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#mechanisms-make-the-market" class="md-nav__link">
+    <span class="md-ellipsis">
+      Mechanisms make the market
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#extending-auction-design" class="md-nav__link">
+    <span class="md-ellipsis">
+      Extending Auction Design
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#block-structure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Block Structure
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Block Structure">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#-blockspace" class="md-nav__link">
+    <span class="md-ellipsis">
+      ⍺-blockspace
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#-blockspace_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      β-blockspace
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elastic-supply-schedule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elastic Supply Schedule
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#why-these-changes-matter" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why These Changes Matter
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Why These Changes Matter">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shortcomings-of-the-standard-uniform-price-auction" class="md-nav__link">
+    <span class="md-ellipsis">
+      Shortcomings of the standard uniform price auction
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tie-breaking-rule" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tie Breaking Rule
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Tie Breaking Rule">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#elastic-supply-curve-detail" class="md-nav__link">
+    <span class="md-ellipsis">
+      Elastic Supply Curve Detail
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#footnotes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Footnotes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
           
           
             <div class="md-content" data-md-component="content">
@@ -2227,7 +2481,11 @@
 
   <h1>XGA Auction Platform</h1>
 
-<p>Multi-unit auctions, unlike their single-unit counterparts, present complex allocation mechanisms. TheXGA platform
+<h2 id="mechanisms-make-the-market">Mechanisms make the market<a class="headerlink" href="#mechanisms-make-the-market" title="Permanent link">&para;</a></h2>
+<p>XGA is a platform that is compromised of a Optimism based Rollup, a smart contract protocol, an Ethereum concensus layer
+sidecar and a domain-specific engine called Open Games for proving/developing (game-specific) mechanisms.</p>
+<h2 id="extending-auction-design">Extending Auction Design<a class="headerlink" href="#extending-auction-design" title="Permanent link">&para;</a></h2>
+<p>Multi-unit auctions, unlike their single-unit counterparts, present complex allocation mechanisms. XGA platform
 implements several innovative strategies:</p>
 <ol>
 <li>An enhanced uniform price auction,</li>
@@ -2254,25 +2512,15 @@ priced differently.</p>
     and below represent two very different markets: The first serves strategic actors, whereas the second serves
     'everyone else' - people not interested in speculation that just want to transact, e.g., to pay for stuff.<sup id="fnref:2"><a class="footnote-ref" href="#fn:2">2</a></sup></li>
 </ul>
-<pre class="mermaid"><code>gantt
-    title Future auction for `below`
-    dateFormat YY-MM
-    axisFormat %m
-    tickInterval 1month
-    section Epoch i
-        We know slots for Epoch i+2 are 03,08 and 11 : crit, done, milestone, 00-01, 1m
-        Auction for `below`, slots 03,08,11 : 00-01, 6M
-        Futures awarded : milestone, 00-07, 1m
-        Users can transact: active, 00-07, 6M
-    section Epoch i+1
-        Users can transact: active, 01-01, 12M
-    section Epoch i+2
-        Slot 03, future can be used : crit, active, milestone, 02-03, 1
-        Slot 08, future can be used : crit, active, milestone, 02-08, 1
-        Slot 11, future can be used : crit, active, milestone, 02-11, 1</code></pre>
-<p>The Auction platform uses the <a href="https://securerpc.com">SecureRPC.com</a> relay, in which permissioned validator sets use
-exclusively<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup>. As such, we will know 2 epochs in advance in which slots we will mint a block. Therefore, we can sell a
-proportion of blockspace 2 epochs in advance, enabling a forward call market for <em>β-blockspace</em>.</p>
+<p>The Auction platform uses the <a href="https://securerpc.com">SecureRPC.com</a> relay, in which permissioned validator sets
+configure the relay endpoint for partial privileged access.<sup id="fnref:3"><a class="footnote-ref" href="#fn:3">3</a></sup> for version 1. The access is only <em>partialy</em> privileged
+in that the validator can still receive bids from other relays. In the event that the SecureRPC relay does not respond
+within a certain <em>stall time</em>, the validator can accept external bids. This eliminates the risk of potentially loosing
+money should the relay and validator experience a service disruption: the existing MEV Boost Auction <strong>always</strong> takes
+place.</p>
+<p>The relay coordinates with registered validators such that it can be queried we will know 2 epochs in advance in which
+slots we will mint a block. Therefore, we can sell a proportion of blockspace 2 epochs in advance, enabling a forward
+call market for <em>β-blockspace</em>.</p>
 <h3 id="elastic-supply-schedule"><strong>Elastic Supply Schedule</strong><a class="headerlink" href="#elastic-supply-schedule" title="Permanent link">&para;</a></h3>
 <p><strong>Elastic Supply Schedule</strong>: Breaking away from the rigidness of a fixed supply, we're introducing elasticity. When
 prices dip low, we'll strategically limit the availability of options. This dynamic approach ensures a balance between
@@ -2288,7 +2536,7 @@ uniform price auction, underbidding on the marginal unit doesn't just lower the 
 overall price you pay.</p>
 <p>The real danger of severe under-pricing hinges on demand factors, which are often unpredictable and not easily deduced
 from existing data. The debate over whether discriminatory or uniform price auctions yield higher revenue remains
-unresolved, both theoretically (as discussed by <em>Ausubel</em> et al. 2011) and empirically.</p>
+unresolved, both theoretically (as discussed by <em>Ausubel</em> et al. 2011)<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup> and empirically.</p>
 <h3 id="tie-breaking-rule">Tie Breaking Rule<a class="headerlink" href="#tie-breaking-rule" title="Permanent link">&para;</a></h3>
 <p>The traditional tie-breaking rule, which prioritizes higher marginal bids, is inherently flawed. It doesn't account for
 the strategic value of the marginal unit. This is particularly problematic in multi-unit auctions, where the marginal
@@ -2301,7 +2549,7 @@ alternative that introduces more pressure at the quantity at the margin.</p>
 <p><span class="arithmatex">\(S:P→Q\)</span></p>
 <p>Thus we have different offering quantities of options.</p>
 <p>The supply function is designed to be initially concave, then constant at maximum capacity. This approach, theoretically
-supported by Licalzi (2005)<sup id="fnref:5"><a class="footnote-ref" href="#fn:5">5</a></sup>, aims to mitigate dramatic underpricing.</p>
+supported by Licalzi<sup id="fnref:6"><a class="footnote-ref" href="#fn:6">6</a></sup>, aims to mitigate dramatic underpricing.</p>
 <h3 id="footnotes">Footnotes<a class="headerlink" href="#footnotes" title="Permanent link">&para;</a></h3>
 <div class="footnote">
 <hr />
@@ -2321,8 +2569,14 @@ Shares</A></B>," <A HREF="https://ideas.repec.org/s/oup/qjecon.html">The Quarter
 President and Fellows of Harvard College, vol. 93(4), pages 675-689.&#160;<a class="footnote-backref" href="#fnref:4" title="Jump back to footnote 4 in the text">&#8617;</a></p>
 </li>
 <li id="fn:5">
+<p>L. Ausubel and P. Cramton, “Design of a Suitable Auction Format for Competitive Sale of Alternative Energy Leases on
+the OCS (AE Auction Design Study, Paper 2 of 3) Multiple Factor Auction Design for Wind Rights,” 2011. Accessed:
+Jan. 02, 2023. [Online]. Available:
+<a href="https://www.boem.gov/sites/default/files/uploadedFiles/BOEM/Renewable_Energy_Program/Regulatory_Information/AusubelCramtonPaper2.pdf">https://www.boem.gov/sites/default/files/uploadedFiles/BOEM/Renewable_Energy_Program/Regulatory_Information/AusubelCramtonPaper2.pdf</a>&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+</li>
+<li id="fn:6">
 <p>Marco LiCalzi, 2005. <A HREF="https://doi.org/10.1016/S0014-2921(02)00324-0">"Tilting the supply schedule to enhance
-competition in uniform-price auctions"</A> European Economic Review, Volume 49, Issue 1, 2005, Pages 227-250&#160;<a class="footnote-backref" href="#fnref:5" title="Jump back to footnote 5 in the text">&#8617;</a></p>
+competition in uniform-price auctions"</A> European Economic Review, Volume 49, Issue 1, 2005, Pages 227-250&#160;<a class="footnote-backref" href="#fnref:6" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -2334,12 +2588,32 @@ competition in uniform-price auctions"</A> European Economic Review, Volume 49, 
 
 
   
+    
+  
   
 
 
+  <aside class="md-source-file">
+    
+      
+  <span class="md-source-file__fact">
+    <span class="md-icon" title="Last update">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1-2.1-2M12.5 7v5.2l4 2.4-1 1L11 13V7h1.5M11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2v1.8Z"/></svg>
+    </span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-timeago"><span class="timeago" datetime="2024-05-25T14:11:32+00:00" locale="en"></span></span><span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date">2024-05-25</span>
+  </span>
+
+    
+    
+    
+    
+  </aside>
+
 
   
 
+
+  
 
 
   <form class="md-feedback" name="feedback" hidden>
@@ -2405,6 +2679,8 @@ competition in uniform-price auctions"</A> European Economic Review, Volume 49, 
   
     
       
+        
+      
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
         
@@ -2439,6 +2715,21 @@ competition in uniform-price auctions"</A> European Economic Review, Volume 49, 
   
 </div>
       
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://your.site/newsletter/0_newsletter_index/" target="_blank" rel="noopener" title="your.site" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M0 64c0-17.7 14.3-32 32-32 229.8 0 416 186.2 416 416 0 17.7-14.3 32-32 32s-32-14.3-32-32C384 253.6 226.4 96 32 96 14.3 96 0 81.7 0 64zm0 352a64 64 0 1 1 128 0 64 64 0 1 1-128 0zm32-256c159.1 0 288 128.9 288 288 0 17.7-14.3 32-32 32s-32-14.3-32-32c0-123.7-100.3-224-224-224-17.7 0-32-14.3-32-32s14.3-32 32-32z"/></svg>
+    </a>
+  
+</div>
+      
     </div>
   </div>
 </footer>
@@ -2451,86 +2742,16 @@ competition in uniform-price auctions"</A> European Economic Review, Volume 49, 
       <div class="md-progress" data-md-component="progress" role="progressbar"></div>
     
     
-      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
-        <div class="md-consent__overlay"></div>
-        <aside class="md-consent__inner">
-          <form class="md-consent__form md-grid md-typeset" name="consent">
-            
-
-  
-
-
-  
-
-
-
-
-<h4></h4>
-<p></p>
-<input class="md-toggle" type="checkbox" id="__settings" >
-<div class="md-consent__settings">
-  <ul class="task-list">
-    
-      
-      
-        
-        
-      
-      <li class="task-list-item">
-        <label class="task-list-control">
-          <input type="checkbox" name="analytics" >
-          <span class="task-list-indicator"></span>
-          Google Analytics
-        </label>
-      </li>
-    
-      
-      
-        
-        
-      
-      <li class="task-list-item">
-        <label class="task-list-control">
-          <input type="checkbox" name="github" checked>
-          <span class="task-list-indicator"></span>
-          GitHub
-        </label>
-      </li>
-    
-  </ul>
-</div>
-<div class="md-consent__controls">
-  
-    
-      <button class="md-button md-button--primary">Accept</button>
-    
-    
-    
-  
-    
-    
-      <button type="reset" class="md-button md-button--primary">Reject</button>
-    
-    
-  
-    
-    
-    
-      <label class="md-button" for="__settings">Manage settings</label>
-    
-  
-</div>
-          </form>
-        </aside>
-      </div>
-      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout(function(){document.querySelector("[data-md-component=consent]").hidden=!1},250);var action,form=document.forms.consent;for(action of["submit","reset"])form.addEventListener(action,function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map(function(e){return[e,!0]}))),location.hash="",location.reload()})</script>
-    
-    <script id="__config" type="application/json">{"base": ".", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.instant", "navigation.instant.progress", "navigation.expand", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.indexes", "navigation.path", "search.highlight", "search.share", "search.suggest", "toc.follow", "toc.integrate"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["announce.dismiss", "content.action.edit", "content.action.view", "content.code.annotate", "content.code.copy", "content.footnote.tooltips", "content.tabs.link", "content.tooltips", "navigation.footer", "navigation.instant", "navigation.instant.progress", "navigation.expand", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.tracking", "navigation.indexes", "navigation.path", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
       <script src="assets/javascripts/bundle.081f42fc.min.js"></script>
       
-        <script src="javascripts/extra.js"></script>
+        <script src="js/timeago.min.js"></script>
+      
+        <script src="js/timeago_mkdocs_material.js"></script>
+      
+        <script src="javascripts/mathjax.js"></script>
       
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
       

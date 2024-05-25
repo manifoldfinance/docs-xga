@@ -2,252 +2,267 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.xga.com/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.xga.com/tmp/</loc>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Clients/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Clients/accounting/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Clients/clients/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Clients/configuration/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Clients/relay/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Clients/requirements/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Clients/validators/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Developers/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Developers/builders/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Developers/interface/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Developers/mainnet/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Developers/payment-methods/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Developers/sdk/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Developers/testnet/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Learning/Forward-Contracts/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Learning/aup_auction/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Learning/flashbots-comparison/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.xga.com/Learning/primary-market/</loc>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Learning/secondary-market/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Legal/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Legal/CDD/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Legal/Content-Disclaimer/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Legal/Disclosure-Statement/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Reference/constants/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Reference/contract_design/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Reference/contract_summary/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Reference/erc6909/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Reference/glossary/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Reference/rpc-payload/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Relay/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Relay/captive-insurance/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Rulebook/bylaws/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Rulebook/definitions/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Rulebook/delivery-and-settlement/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Rulebook/general/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Rulebook/governance/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Rulebook/network-clearing-participants/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Rulebook/obligations/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/Rulebook/suspension/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/api/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/api/beta-auction/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/api/bundle/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/api/relay/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/api/self-report/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/api/signature-scheme/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.xga.com/blog/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.xga.com/blog/announcements/changelog/timeline-for-v0-to-v1/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <loc>https://docs.xga.com/blog/posts/v0-roadmap/</loc>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.xga.com/blog/archive/2024/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <loc>https://docs.xga.com/newsletter/0_newsletter_index/</loc>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.xga.com/blog/category/announcements/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <loc>https://docs.xga.com/newsletter/2024_05_24/</loc>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.xga.com/blog/category/changelog/</loc>
-         <lastmod>2024-05-24</lastmod>
+         <loc>https://docs.xga.com/newsletter/2024_05_25/</loc>
+         <lastmod>2024-05-25</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.xga.com/release/stable/</loc>
+         <lastmod>2024-05-25</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
