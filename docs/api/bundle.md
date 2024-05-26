@@ -4,4 +4,4 @@ title: Ethereum Bundle API
 
 ## Bundle API
 
-!!swagger eth-bundle.yml!!
+[OAD(./docs/api/eth-bundle.yml)]

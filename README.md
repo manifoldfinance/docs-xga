@@ -115,7 +115,6 @@ deploy:
         publish_dir: ./site
 ```
 
-
 ## License
 
 Copyright 2024, Manifold Finance Inc.
