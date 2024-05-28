@@ -12,6 +12,8 @@
   "private": false,
   "devDependencies": {
     "gh-pages": "^6.1.1",
+    "ical-generator": "^7.1.0",
+    "markdown-link-extractor": "^4.0.2",
     "prettier": "^3.2.5"
   }
 }

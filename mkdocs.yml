@@ -75,7 +75,7 @@ theme:
         name: Switch to system preference
 
 extra_css:
-#  - stylesheets/extra.css
+  - stylesheets/extra.css
   - stylesheets/neoteroi-mkdocs.css
 
 extra_javascript:
