@@ -3,7 +3,7 @@ title: XGA L2 Testnet
 description: Testing information for node operators, validators, builders, and searchers.
 ---
 
--   [Live auction dashboard](https://holesky-auction-dashboard.securerpc.com/)
+-   [Live auction dashboard](https://holesky-dashboard.xga.com/)
 -   [L2 Blockchain explorer](https://holesky-blockscout.securerpc.com/)
 
 ## Node Operators
@@ -21,13 +21,13 @@ is also running.
 -   **L2 RPC (TESTNET):**
 
     -   Description: L2 Node RPC (Testnet)
-    -   URL: [https://holesky-api.securerpc.com/l2](https://holesky-api.securerpc.com/l2/)
+    -   URL: [https://holesky-api.xga.com/v1](https://holesky-api.xga.com/v1)
     -   Methods: eth\_\*
     -   ChainId: 42169
 
 -   **Beta bundle RPC (Testnet):**
     -   Description: Beta bundle submission RPC
-    -   URL: [https://holesky-api.securerpc.com/v2](https://holesky-api.securerpc.com/v2)
+    -   URL: [https://holesky-rpc.xga.com/v1](https://holesky-rpc.xga.com/v1)
     -   Method: mev_sendBetaBundle
     -   Parameters:
         -   `txs`: List of txs as bundle e.g. [0x2323...,]
@@ -41,9 +41,9 @@ please reach out to us.
 
 ### Contracts
 
-L2 _Auctioneer_: `0xD88e271AD39dAb4DEB0f7f9475d993ed4Bf5029b`
+L2 _Auctioneer_: `0x82052435119AedBEC6e237B5414880bF388F1B63`
 
-L2 _SettlementHouse_: `0x7Ac1A452B59114Fb1E67470720343A2e9AE18297`
+L2 _SettlementHouse_: `0x513844F4425d54beC19B0594AE072e49bEbBF388`
 
 _L1StandardBridgeProxy_: `0x3Ae5Ca0B05bE12d4FF9983Ed70D86de9C34e820C`
 
