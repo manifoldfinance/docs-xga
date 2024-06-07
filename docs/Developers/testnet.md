@@ -21,7 +21,7 @@ is also running.
 -   **L2 RPC (TESTNET):**
 
     -   Description: L2 Node RPC (Testnet)
-    -   URL: [https://holesky-api.xga.com/v1](https://holesky-api.xga.com/v1)
+    -   URL: [https://holesky-op.xga.com/v1](https://holesky-op.xga.com/v1)
     -   Methods: eth\_\*
     -   ChainId: 42169
 
