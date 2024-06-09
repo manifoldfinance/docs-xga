@@ -181,6 +181,7 @@ nav:
   - index.md
   - Developers:
       - Getting Started: Developers/index.md
+      - Walkthrough Guide: Developers/walkthrough.md
       # - Auctioneer: Developers/auctioneer.md
       - Interface: Developers/interface.md
       - Builders & Searchers: Developers/builders.md
@@ -195,14 +196,6 @@ nav:
       - Forward Contracts: Learning/Forward-Contracts.md
   # Disable Article
   #      - 'Secondary Market': 'Learning/secondary-market.md'
-  - Clients:
-      - Overview: Clients/index.md
-      - Clients: Clients/clients.md
-      - Validators: Clients/validators.md
-      - Configuration: Clients/configuration.md
-      - Accounting: Clients/accounting.md
-      - Relay: Clients/relay.md
-      - Requirements: Clients/requirements.md
   - Relay:
       - SecureRpc Relay: Relay/index.md
       - Captive Insurance: Relay/captive-insurance.md
@@ -221,6 +214,14 @@ nav:
           - RPC Payload: Reference/rpc-payload.md
           - Constant Values: Reference/constants.md
           - ERC 6909: Reference/erc6909.md
+  - Clients:
+      - Overview: Clients/index.md
+      - Clients: Clients/clients.md
+      - Validators: Clients/validators.md
+      - Configuration: Clients/configuration.md
+      - Accounting: Clients/accounting.md
+      - Relay: Clients/relay.md
+      - Requirements: Clients/requirements.md
   - Legal:
       - Legal/index.md
       - Compliance: Legal/CDD.md
