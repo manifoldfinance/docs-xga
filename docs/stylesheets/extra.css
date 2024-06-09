@@ -3,6 +3,7 @@
   --md-primary-bg-color--light: rgba(242, 212, 191, 1);
   --md-accent-bg-color: rgba(255, 255, 255, 1);
   --md-accent-bg-color--light: rgba(255, 255, 255, 0.7);
+  --md-admonition-icon--important: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M256 512a256 256 0 1 0 0-512 256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24v112c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zm-32 224a32 32 0 1 1 64 0 32 32 0 1 1-64 0z"/></svg>')
 }
 
 :root, [data-md-color-scheme=default] {
@@ -28,6 +29,35 @@
   --md-primary-bg-color--light: rgba(242, 212, 191, 1);
   --md-accent-bg-color: rgba(255, 255, 255, 1);
   --md-accent-bg-color--light: rgba(255, 255, 255, 0.7);
+}
+
+/* Unordered list <ul> symbols:
+ * - level 2 is hollow circle
+ * - level 3 is filled square
+ * - ul default is filled disc (bullet)
+ */
+ article ul ul {
+  list-style-type:  circle !important;
+}
+
+article ul ul ul {
+  list-style-type:  square !important;
+}
+
+
+.mermaid { 
+--md-mermaid-sequence-number-bg-color: #18A0A0;
+--md-mermaid-sequence-actorman-line-color: #18A0A0;
+--md-mermaid-sequence-node-fg-color: #18A0A0;
+--md-mermaid-sequence-actor-border-color: #18A0A0;
+}
+
+.passed {
+color: teal;
+}
+
+.failed {
+color: red;
 }
 
 /*Footer feedback banner*/
@@ -133,6 +163,21 @@
   mask-image: var(--md-admonition-icon--critical);
 }
 
+.md-typeset .admonition.important,
+.md-typeset details.important {
+  border-color: rgb(245, 0, 87);
+}
+.md-typeset .important > .admonition-title,
+.md-typeset .important > summary {
+  background-color: rgba(245, 0, 87, 0.1);
+}
+.md-typeset .important > .admonition-title::before,
+.md-typeset .important > summary::before {
+  background-color: rgb(245, 0, 87);
+  -webkit-mask-image: var(--md-admonition-icon--important);
+          mask-image: var(--md-admonition-icon--important);
+}
+
 /*Cookie consent*/
 .md-consent__overlay {
   display: none;
@@ -141,4 +186,16 @@
 .md-consent__inner {
   background-color: var(--md-default-fg-color);
   color: var(--md-default-bg-color);
+}
+
+
+/*
+ * Materialize links that open in a new window/tab with a right-up arrow icon
+ */
+ a[target="_blank"]::after {
+  content:     '↗';
+  display:     inline-block;
+  margin-left: 0.2em;
+  width:       1em;
+  height:      1em;
 }
