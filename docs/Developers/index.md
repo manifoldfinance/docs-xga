@@ -3,6 +3,10 @@ title: Developer overview
 description: Developer related information for builders, searchers and intergrators.
 ---
 
+!!! important
+
+    [Check the Walkthrough Guide for an end to end tutorial](./walkthrough.md)
+
 ## General
 
 -   [SDK](./sdk.md)
@@ -20,3 +24,38 @@ description: Developer related information for builders, searchers and intergrat
 [Requirements](./builders.md)
 
 [Payment Methods](./payment-methods.md)
+
+## RPC Endpoints
+
+-   **L2 RPC:**
+
+    -   Description: L2 Node RPC
+    -   URL: [https://xga-api.securerpc.com/v1](https://xga-api.securerpc.com/v1)
+    -   Methods: eth\_\*
+    -   ChainId: 7890785
+
+-   **Beta bundle RPC:**
+
+    -   Description: Beta bundle submission RPC
+    -   URL: [https://mainnet-auction.securerpc.com/](https://mainnet-auction.securerpc.com/)
+    -   Method: mev_sendBetaBundle
+    -   Parameters:
+        -   `txs`: List of txs as bundle e.g. [0x2323...,]
+        -   `slot`: slot number e.g. "11282389"
+    -   ChainId: 1
+
+-   **L2 RPC (Holesky Testnet):**
+
+    -   Description: L2 Node RPC (Holesky Testnet)
+    -   URL: [https://holesky-op.xga.com/v1](https://holesky-op.xga.com/v1)
+    -   Methods: eth\_\*
+    -   ChainId: 42169
+
+-   **Beta bundle RPC (Holesky Testnet):**
+    -   Description: Beta bundle submission RPC
+    -   URL: [https://holesky-rpc.xga.com/v1](https://holesky-rpc.xga.com/v1)
+    -   Method: mev_sendBetaBundle
+    -   Parameters:
+        -   `txs`: List of txs as bundle e.g. [0x2323...,]
+        -   `slot`: slot number e.g. "11282389"
+    -   ChainId: 17000
