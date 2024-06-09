@@ -60,8 +60,7 @@ of slashing event and the evidence required to prove the slashing occurred.
 **Claim Process**: In the event of slashing, the affected validator would submit a claim to the smart contract along
 with evidence of the slashing event.
 
-**Verification**: The smart contract would include or interact with an oracle or a set of oracles to verify the slashing
-event. This requires manual verification by Manifold Finance as the underwriter.
+**Verification**: The smart contract would include or interact with an oracle or a set of oracles to verify the slashing event. This requires manual verification by Manifold Finance as the underwriter.
 
 **Payouts**: Upon successful claim verification, the smart contract would automatically execute a payout to the slashed
 validator from the insurance pool, according to the terms of the policy.

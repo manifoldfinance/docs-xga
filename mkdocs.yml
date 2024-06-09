@@ -5,7 +5,7 @@
 
 repo_name: manifoldfinance/docs-xga
 repo_url: https://github.com/manifoldfinance/docs-xga
-site_author: Manifold Finance
+site_author: XGA Systems
 # yamllint disable-line rule:line-length
 site_description: XGA documentation for builders, searchers and liquid staking protocols.
 site_name: XGA Documentation
@@ -13,7 +13,7 @@ site_url: https://docs.xga.com
 # yamllint disable-line rule:line-length
 # Creative Commons Attribution-NonCommercial-NoDerivs 2.5
 copyright: >
-  Copyright &copy; 2022 - 2024 Manifold Finance, Inc.
+  Copyright &copy; 2024 XGA Systems, Inc.
 use_directory_urls: true
 
 theme:
