@@ -22,6 +22,7 @@ implements several innovative strategies:
 4. Contract based bidding.
 5. Backwards compatible with MEV-Boost
 6. Exclusive Relay endpoint for Validator usage
+7. Reverting Transactions guaranteed exclusion
 
 ## **Block Structure**
 

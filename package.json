@@ -2,6 +2,20 @@
   "name": "docs-xga",
   "version": "0.0.1",
   "description": "mkdocs website for XGA",
+  "scripts": {
+    "build": "mkdocs build -d public",
+    "make": "bash build.sh",
+    "vercel": "npx vercel deploy",
+    "fmt": "npx prettier --config .prettierrc.js --write .",
+    "local-sitemap": "static-sitemap-cli --base http://localhost:8000 --no-clean --root public",
+    "sitemap": "npx static-sitemap-cli --base https://docs.xga.com --no-clean --root public"
+  },
+  "keywords": [
+    "docs",
+    "ethereum",
+    "mev",
+    "auction"
+  ],
   "files": [
     "docs",
     "src"
@@ -11,7 +25,12 @@
   "license": "SEE LICENSE IN LICENSE",
   "private": false,
   "devDependencies": {
+    "eslint": "^9.4.0",
+    "eslint-config-prettier": "^9.1.0",
     "gh-pages": "^6.1.1",
-    "prettier": "^3.2.5"
+    "ical-generator": "^7.1.0",
+    "markdown-link-extractor": "^4.0.2",
+    "prettier": "^3.2.5",
+    "static-sitemap-cli": "^2.2.3"
   }
 }

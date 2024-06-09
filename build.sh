@@ -26,6 +26,8 @@ pip3 install git+https://${GH_TOKEN}@github.com/squidfunk/mkdocs-material-inside
 mkdir -p site/.well-known
 INSIDERS=1 mkdocs build --clean --site-dir site/
 date "+%Y-%m-%dT%H:%M:%S%z" > site/build_id.txt
+cp sitemap.xml site/sitemap.xml
+cp sitemap.txt site/sitemap.txt
 
 #TZ=UTC git show --quiet --date="format-local:%Y.%-m.%-d" --format="nightly-%cd" > site/.well-known/nightly-release.txt
 #cp nightly-release.txt site/.well-known/nightly-release.txt
