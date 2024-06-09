@@ -41,6 +41,7 @@ API paths to resources are generally broken into multiple segments,
 | `eth_getLogs`                             | Returns an array of logs matching a specified filter condition.                            |
 | `net_version`                             | Returns the current network protocol version.                                              |
 
+<!--
 ## API Rate Limiting
 
 If you receive a rate limit error, you should stop making requests temporarily according to these guidelines:
