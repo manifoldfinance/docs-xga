@@ -11,9 +11,10 @@ hide:
 XGA is a platform that is compromised of a Optimism based Rollup, a smart contract protocol, an Ethereum consensus layer
 sidecar and a domain-specific engine called Open Games for proving/developing (game-specific) mechanisms.
 
-- Preconfirmations without CL or EL changes
-- Searchers no longer need to vertically intergrate with Builders, leading to a more competitive MEV market for the benefit of Validator returns.
-- Unambigiously earns more for Validators than running MEV Boost alone.
+-   Preconfirmations without CL or EL changes
+-   Searchers no longer need to vertically intergrate with Builders, leading to a more competitive MEV market for the
+    benefit of Validator returns.
+-   Unambigiously earns more for Validators than running MEV Boost alone.
 
 ## XGA Auction Platform
 
@@ -21,7 +22,7 @@ sidecar and a domain-specific engine called Open Games for proving/developing (g
 
 ### Extending Auction Design
 
-Multi-unit auctions, unlike their single-unit counterparts, present complex allocation mechanisms. XGA platform implements several innovative strategies:
+## XGA Auction Platform
 
 1. An enhanced uniform price auction
 2. A Bifurcated Block Structure (splitting the block into halves)
@@ -30,7 +31,8 @@ Multi-unit auctions, unlike their single-unit counterparts, present complex allo
 5. Backwards compatible with MEV-Boost
 6. No need for Restaking or Depositing of Staked Ether
 
-XGA is designed to be a flexible and extensible platform for the design of new auction mechanisms. Version 1 is the currently implemented version. Version 2 work is already underway and adds additional benefits such as:
+XGA is designed to be a flexible and extensible platform for the design of new auction mechanisms. Version 1 is the
+currently implemented version. Version 2 work is already underway and adds additional benefits such as:
 
 1. Support for Multiple Relays
 2. Relay revenue mechanism
@@ -42,10 +44,10 @@ XGA is designed to be a flexible and extensible platform for the design of new a
 
 We divide a block in two parts: `⍺-blockspace` and `β-blockspace`
 
-- `⍺-blockspace` is a very time-sensitive kind of priority transaction. These transactions often come in last.
+-   `⍺-blockspace` is a very time-sensitive kind of priority transaction. These transactions often come in last.
 
-- `β-blockspace` however can be considered non-priority sensitive, meaning it is not very time sensitive, hence can be
-priced differently.
+-   `β-blockspace` however can be considered non-priority sensitive, meaning it is not very time sensitive, hence can be
+    priced differently.
 
 ### **⍺-blockspace**
 
@@ -61,11 +63,16 @@ priced differently.
 
 ### Relay Mechanics and MEV Boost compatibility
 
-The Auction platform uses the [SecureRPC.com](https://securerpc.com) relay, in which permissioned validator sets configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only _partialy_ privileged
-in that the validator can still receive bids from other relays. In the event that the SecureRPC relay does not respond within a certain _stall time_, the validator can accept external bids. This eliminates the risk of potentially loosing money should the relay and validator experience a service disruption: the existing MEV Boost Auction **always** takes place.
+The Auction platform uses the [SecureRPC.com](https://securerpc.com) relay, in which permissioned validator sets
+configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only _partialy_ privileged
+in that the validator can still receive bids from other relays. In the event that the SecureRPC relay does not respond
+within a certain _stall time_, the validator can accept external bids. This eliminates the risk of potentially loosing
+money should the relay and validator experience a service disruption: the existing MEV Boost Auction **always** takes
+place.
 
 The relay coordinates with registered validators so that it can be queried; we will know 2 epochs in advance in which
-slots we will mint a block. Therefore, we can sell a proportion of blockspace 2 epochs in advance, enabling a forward call market for _β-blockspace_.
+slots we will mint a block. Therefore, we can sell a proportion of blockspace 2 epochs in advance, enabling a forward
+call market for _β-blockspace_.
 
 ### **Elastic Supply Schedule**
 
@@ -84,11 +91,15 @@ The real danger of severe under-pricing hinges on demand factors, which are ofte
 
 ### Tie Breaking Rule
 
-The traditional tie-breaking rule, which prioritizes higher marginal bids, is inherently flawed. It doesn't account for the strategic value of the marginal unit. This is particularly problematic in multi-unit auctions, where the marginal unit is often the most valuable. 
+The traditional tie-breaking rule, which prioritizes higher marginal bids, is inherently flawed. It doesn't account for
+the strategic value of the marginal unit. This is particularly problematic in multi-unit auctions, where the marginal
+unit is often the most valuable.
 
-The current rule fails to capture the true value of the marginal unit, leading to suboptimal outcomes. Due to the discrete nature of bids, it can happen that there is market-clearing price (where $demand=supply$). 
+The current rule fails to capture the true value of the marginal unit, leading to suboptimal outcomes. Due to the
+discrete nature of bids, it can happen that there is market-clearing price (where $demand=supply$).
 
-The typical rule applied in many auctions favors high marginal bids first. We will consider an alternative that introduces more pressure at the quantity at the margin.
+The typical rule applied in many auctions favors high marginal bids first. We will consider an alternative that
+introduces more pressure at the quantity at the margin.
 
 #### Elastic Supply Curve Detail
 
