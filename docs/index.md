@@ -22,8 +22,7 @@ sidecar and a domain-specific engine called Open Games for proving/developing (g
 
 ### Extending Auction Design
 
-Multi-unit auctions, unlike their single-unit counterparts, present complex allocation mechanisms. XGA platform
-implements several innovative strategies:
+## XGA Auction Platform
 
 1. An enhanced uniform price auction
 2. A Bifurcated Block Structure (splitting the block into halves)
@@ -77,26 +76,18 @@ call market for _β-blockspace_.
 
 ### **Elastic Supply Schedule**
 
-**Elastic Supply Schedule**: Breaking away from the rigidness of a fixed supply, we're introducing elasticity. When
-prices dip low, we'll strategically limit the availability of options. This dynamic approach ensures a balance between
-supply and demand, maintaining value and interest.
+**Elastic Supply Schedule**: Breaking away from the rigidness of a fixed supply, we're introducing elasticity. When prices dip low, we'll strategically limit the availability of options. This dynamic approach ensures a balance between supply and demand, maintaining value and interest.
 
 **Revamped Tie-Breaking Rule**: In the world of auctions, ties are inevitable. Our approach is different. We're moving
-away from the conventional method that prioritizes higher marginal bids. Instead, we're implementing a novel rule that
-intensifies competition, particularly for those crucial marginal quantities.
+away from the conventional method that prioritizes higher marginal bids. Instead, we're implementing a novel rule that intensifies competition, particularly for those crucial marginal quantities.
 
 ## Why These Changes Matter
 
 ### Shortcomings of the standard uniform price auction
 
-Traditionally, with a fixed supply, there's a looming risk of plummeting prices. This phenomenon, identified by
-Wilson[^4], highlights a bidder's tendency to underbid. In multi-unit auctions, this is a critical challenge. In a
-uniform price auction, underbidding on the marginal unit doesn't just lower the price for that unit; it slashes the
-overall price you pay.
+Traditionally, with a fixed supply, there's a looming risk of plummeting prices. This phenomenon, identified by Wilson[^4], highlights a bidder's tendency to underbid. In multi-unit auctions, this is a critical challenge. In a uniform price auction, underbidding on the marginal unit doesn't just lower the price for that unit; it slashes the overall price you pay.
 
-The real danger of severe under-pricing hinges on demand factors, which are often unpredictable and not easily deduced
-from existing data. The debate over whether discriminatory or uniform price auctions yield higher revenue remains
-unresolved, both theoretically (as discussed by _Ausubel_ et al. 2011)[^5] and empirically.
+The real danger of severe under-pricing hinges on demand factors, which are often unpredictable and not easily deduced from existing data. The debate over whether discriminatory or uniform price auctions yield higher revenue remains unresolved, both theoretically (as discussed by _Ausubel_ et al. 2011)[^5] and empirically.
 
 ### Tie Breaking Rule
 
