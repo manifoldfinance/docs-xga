@@ -8,7 +8,7 @@ hide:
 
 ## Mechanisms make the market
 
-XGA is a platform that is compromised of a Optimism based Rollup, a smart contract protocol, an Ethereum consensus layer
+XGA is a platform that is comprised of a Optimism based Rollup, a smart contract protocol, an Ethereum consensus layer
 sidecar and a domain-specific engine called Open Games for proving/developing (game-specific) mechanisms.
 
 -   Preconfirmations without CL or EL changes
