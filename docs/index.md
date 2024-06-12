@@ -12,35 +12,25 @@ XGA is a platform that is comprised of an Optimism based Rollup, a smart contrac
 sidecar and a domain-specific engine called Open Games for proving/developing (game-specific) mechanisms.
 
 -   Preconfirmations without CL or EL changes
--   Searchers no longer need to vertically intergrate with Builders, leading to a more competitive MEV market for the
+-   Searchers no longer need to vertically integrate with Builders, leading to a more competitive MEV market for the
     benefit of Validator returns.
--   Unambigiously earns more for Validators than running MEV Boost alone.
-
-## XGA Auction Platform
+-   Unambiguously earns more for Validators than running MEV Boost alone.
 
 > Platform Overview, including Auction design, Rollup and Relay details.
 
-### Extending Auction Design
+## Extending Auction Design
 
-## XGA Auction Platform
+XGA is designed to be a flexible and extensible platform for the design of new auction mechanisms. Some of the benefits include:
 
 1. An enhanced uniform price auction
 2. A Bifurcated Block Structure (splitting the block into halves)
 3. Elastic Supply Scheduling
 4. Option to use Contract based bidding. (RPC Supported as well).
 5. Backwards compatible with MEV-Boost
-6. No need for Restaking or Depositing of Staked Ether
+6. No need for Restaking or Depositing of Staked Ether for Validators to participate
 
-XGA is designed to be a flexible and extensible platform for the design of new auction mechanisms. Version 1 is the
-currently implemented version. Version 2 work is already underway and adds additional benefits such as:
 
-1. Support for Multiple Relays
-2. Relay revenue mechanism
-3. Non-fungible Blockspace Market
-4. Consensus Market for Networks
-5. Inclusion Market for Protocols
-
-## **Block Structure**
+### **Block Structure**
 
 We divide a block in two parts: `⍺-blockspace` and `β-blockspace`
 
@@ -49,12 +39,12 @@ We divide a block in two parts: `⍺-blockspace` and `β-blockspace`
 -   `β-blockspace` however can be considered non-priority sensitive, meaning it is not very time sensitive, hence can be
     priced differently.
 
-### **⍺-blockspace**
+#### **⍺-blockspace**
 
 -   `⍺-blockspace` - represents the top part of the blockspace. Economically, this is where competitive searchers want
     to place their transactions (e.g. for arbitrages etc.).[^1]
 
-### **β-blockspace**
+#### **β-blockspace**
 
 -   ` β-blockspace` - represents the rest of the blockspace. Economically, this is where low-priority transactions -
     direct transfers, low volume swaps, some kind of intents, etc. - would go. The rationale for this is simple: `above`
@@ -64,7 +54,7 @@ We divide a block in two parts: `⍺-blockspace` and `β-blockspace`
 ### Relay Mechanics and MEV Boost compatibility
 
 The Auction platform uses the [SecureRPC.com](https://securerpc.com) relay, in which permissioned validator sets
-configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only _partialy_ privileged
+configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only *partially* privileged
 in that the validator can still receive bids from other relays. In the event that the SecureRPC relay does not respond
 within a certain _stall time_, the validator can accept external bids. This eliminates the risk of potentially loosing
 money should the relay and validator experience a service disruption: the existing MEV Boost Auction **always** takes
@@ -112,7 +102,11 @@ Thus we have different offering quantities of options.
 The supply function is designed to be initially concave, then constant at maximum capacity. This approach, theoretically
 supported by Licalzi[^6], aims to mitigate dramatic underpricing.
 
-### Footnotes
+## Suggested Links
+
+
+
+## Footnotes
 
 [^1]: Previously this was called 'above'
 [^2]: Previously this was called 'below'
