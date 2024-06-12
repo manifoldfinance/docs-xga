@@ -16,31 +16,21 @@ sidecar and a domain-specific engine called Open Games for proving/developing (g
     benefit of Validator returns.
 -   Unambigiously earns more for Validators than running MEV Boost alone.
 
-## XGA Auction Platform
-
 > Platform Overview, including Auction design, Rollup and Relay details.
 
-### Extending Auction Design
+## Extending Auction Design
 
-## XGA Auction Platform
+XGA is designed to be a flexible and extensible platform for the design of new auction mechanisms. Some of the benefits include:
 
 1. An enhanced uniform price auction
 2. A Bifurcated Block Structure (splitting the block into halves)
 3. Elastic Supply Scheduling
 4. Option to use Contract based bidding. (RPC Supported as well).
 5. Backwards compatible with MEV-Boost
-6. No need for Restaking or Depositing of Staked Ether
+6. No need for Restaking or Depositing of Staked Ether for Validators to participate
 
-XGA is designed to be a flexible and extensible platform for the design of new auction mechanisms. Version 1 is the
-currently implemented version. Version 2 work is already underway and adds additional benefits such as:
 
-1. Support for Multiple Relays
-2. Relay revenue mechanism
-3. Non-fungible Blockspace Market
-4. Consensus Market for Networks
-5. Inclusion Market for Protocols
-
-## **Block Structure**
+### **Block Structure**
 
 We divide a block in two parts: `⍺-blockspace` and `β-blockspace`
 
@@ -49,12 +39,12 @@ We divide a block in two parts: `⍺-blockspace` and `β-blockspace`
 -   `β-blockspace` however can be considered non-priority sensitive, meaning it is not very time sensitive, hence can be
     priced differently.
 
-### **⍺-blockspace**
+#### **⍺-blockspace**
 
 -   `⍺-blockspace` - represents the top part of the blockspace. Economically, this is where competitive searchers want
     to place their transactions (e.g. for arbitrages etc.).[^1]
 
-### **β-blockspace**
+#### **β-blockspace**
 
 -   ` β-blockspace` - represents the rest of the blockspace. Economically, this is where low-priority transactions -
     direct transfers, low volume swaps, some kind of intents, etc. - would go. The rationale for this is simple: `above`
@@ -112,7 +102,11 @@ Thus we have different offering quantities of options.
 The supply function is designed to be initially concave, then constant at maximum capacity. This approach, theoretically
 supported by Licalzi[^6], aims to mitigate dramatic underpricing.
 
-### Footnotes
+## Suggested Links
+
+
+
+## Footnotes
 
 [^1]: Previously this was called 'above'
 [^2]: Previously this was called 'below'
