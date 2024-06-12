@@ -1,6 +1,6 @@
 ---
 title: Walkthrough Tutorial
-description: Developer Walkthrough guide for end to end information for builders, searchers and intergrators.
+description: Developer Walkthrough guide for end to end information for builders, searchers and integrators.
 ---
 
 !!! info
@@ -27,7 +27,7 @@ RPC endpoints. The codebase can be found here to follow along: [github.com/manif
     [`cast`](https://github.com/manifoldfinance/xga-open-bidder-contracts/blob/main/script/OpenBidder.s.sol/) or
     [`python`](./sign-eth-tx-py/) libs.
 
-### Convience Setup
+### Convenience Setup
 
 > Environment vars
 
@@ -378,7 +378,7 @@ cast call $AUCTIONEER \
 
 #### Build and sign transaction on L1
 
--   Prioriy fee **MUST** be **ZERO**
+-   Priority fee **MUST** be **ZERO**
 -   RPC URL should be L1
 -   Return signed transaction
 
