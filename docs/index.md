@@ -12,9 +12,9 @@ XGA is a platform that is comprised of an Optimism based Rollup, a smart contrac
 sidecar and a domain-specific engine called Open Games for proving/developing (game-specific) mechanisms.
 
 -   Preconfirmations without CL or EL changes
--   Searchers no longer need to vertically intergrate with Builders, leading to a more competitive MEV market for the
+-   Searchers no longer need to vertically integrate with Builders, leading to a more competitive MEV market for the
     benefit of Validator returns.
--   Unambigiously earns more for Validators than running MEV Boost alone.
+-   Unambiguously earns more for Validators than running MEV Boost alone.
 
 > Platform Overview, including Auction design, Rollup and Relay details.
 
@@ -54,7 +54,7 @@ We divide a block in two parts: `⍺-blockspace` and `β-blockspace`
 ### Relay Mechanics and MEV Boost compatibility
 
 The Auction platform uses the [SecureRPC.com](https://securerpc.com) relay, in which permissioned validator sets
-configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only _partialy_ privileged
+configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only *partially* privileged
 in that the validator can still receive bids from other relays. In the event that the SecureRPC relay does not respond
 within a certain _stall time_, the validator can accept external bids. This eliminates the risk of potentially loosing
 money should the relay and validator experience a service disruption: the existing MEV Boost Auction **always** takes
