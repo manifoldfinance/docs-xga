@@ -1,12 +1,16 @@
 ---
 title: Walkthrough Tutorial
-description: Developer Walkthrough guide for end to end information for builders, searchers and intergrators.
+description: Developer Walkthrough guide for end to end information for builders, searchers and integrators.
 ---
+
+!!! info
+
+    GitHub Repo can be found here: [github.com/manifoldfinance/xga-sdk-v0](https://github.com/manifoldfinance/xga-sdk-v0)
 
 ## Getting Started
 
 SDK for XGA bidders and users. This guide provides information on how to interact with the auction contracts and the L2
-RPC endpoints.
+RPC endpoints. The codebase can be found here to follow along: [github.com/manifoldfinance/xga-sdk-v0](https://github.com/manifoldfinance/xga-sdk-v0)
 
 **Bidders**
 
@@ -23,7 +27,7 @@ RPC endpoints.
     [`cast`](https://github.com/manifoldfinance/xga-open-bidder-contracts/blob/main/script/OpenBidder.s.sol/) or
     [`python`](./sign-eth-tx-py/) libs.
 
-### Convience Setup
+### Convenience Setup
 
 > Environment vars
 
@@ -374,7 +378,7 @@ cast call $AUCTIONEER \
 
 #### Build and sign transaction on L1
 
--   Prioriy fee **MUST** be **ZERO**
+-   Priority fee **MUST** be **ZERO**
 -   RPC URL should be L1
 -   Return signed transaction
 

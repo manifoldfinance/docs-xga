@@ -146,6 +146,4 @@ In contrast to the rule above, only the marginal demand matters; demand stated a
 
 !!! info inline "Reflection"
 
-    This creates stronger incentives to bid closer to true valuations; it reduces the tendency to end up
-
-in a low price equilibrium.
+    This creates stronger incentives to bid closer to true valuations; it reduces the tendency to end up in a low price equilibrium.

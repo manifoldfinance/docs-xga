@@ -27,6 +27,18 @@ description: Developer related information for builders, searchers and intergrat
 
 ## RPC Endpoints
 
+Holesky:
+https://holesky-eth.xga.com/ - Relay    
+https://holesky-op.xga.com/v1 - L2 RPC    
+https://holesky-rpc.xga.com/v1 - L1 RPC    
+https://holesky-dashboard.xga.com/ - Auction dashboard   
+
+Mainnet:
+https://eth.xga.com/ - Relay    
+https://op.xga.com/v1 - L2 RPC   
+https://rpc.xga.com/v1 - L1 RPC   
+https://dashboard.xga.com - Auction dashboard   
+
 -   **L2 RPC:**
 
     -   Description: L2 Node RPC
