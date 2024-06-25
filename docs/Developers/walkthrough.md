@@ -10,7 +10,8 @@ description: Developer Walkthrough guide for end to end information for builders
 ## Getting Started
 
 SDK for XGA bidders and users. This guide provides information on how to interact with the auction contracts and the L2
-RPC endpoints. The codebase can be found here to follow along: [github.com/manifoldfinance/xga-sdk-v0](https://github.com/manifoldfinance/xga-sdk-v0)
+RPC endpoints. The codebase can be found here to follow along:
+[github.com/manifoldfinance/xga-sdk-v0](https://github.com/manifoldfinance/xga-sdk-v0)
 
 **Bidders**
 
