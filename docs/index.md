@@ -20,7 +20,8 @@ sidecar and a domain-specific engine called Open Games for proving/developing (g
 
 ## Extending Auction Design
 
-XGA is designed to be a flexible and extensible platform for the design of new auction mechanisms. Some of the benefits include:
+XGA is designed to be a flexible and extensible platform for the design of new auction mechanisms. Some of the benefits
+include:
 
 1. An enhanced uniform price auction
 2. A Bifurcated Block Structure (splitting the block into halves)
@@ -28,7 +29,6 @@ XGA is designed to be a flexible and extensible platform for the design of new a
 4. Option to use Contract based bidding. (RPC Supported as well).
 5. Backwards compatible with MEV-Boost
 6. No need for Restaking or Depositing of Staked Ether for Validators to participate
-
 
 ### **Block Structure**
 
@@ -54,7 +54,7 @@ We divide a block in two parts: `⍺-blockspace` and `β-blockspace`
 ### Relay Mechanics and MEV Boost compatibility
 
 The Auction platform uses the [SecureRPC.com](https://securerpc.com) relay, in which permissioned validator sets
-configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only *partially* privileged
+configure the relay endpoint for partial privileged access.[^3] for version 1. The access is only _partially_ privileged
 in that the validator can still receive bids from other relays. In the event that the SecureRPC relay does not respond
 within a certain _stall time_, the validator can accept external bids. This eliminates the risk of potentially loosing
 money should the relay and validator experience a service disruption: the existing MEV Boost Auction **always** takes
@@ -66,18 +66,26 @@ call market for _β-blockspace_.
 
 ### **Elastic Supply Schedule**
 
-**Elastic Supply Schedule**: Breaking away from the rigidness of a fixed supply, we're introducing elasticity. When prices dip low, we'll strategically limit the availability of options. This dynamic approach ensures a balance between supply and demand, maintaining value and interest.
+**Elastic Supply Schedule**: Breaking away from the rigidness of a fixed supply, we're introducing elasticity. When
+prices dip low, we'll strategically limit the availability of options. This dynamic approach ensures a balance between
+supply and demand, maintaining value and interest.
 
 **Revamped Tie-Breaking Rule**: In the world of auctions, ties are inevitable. Our approach is different. We're moving
-away from the conventional method that prioritizes higher marginal bids. Instead, we're implementing a novel rule that intensifies competition, particularly for those crucial marginal quantities.
+away from the conventional method that prioritizes higher marginal bids. Instead, we're implementing a novel rule that
+intensifies competition, particularly for those crucial marginal quantities.
 
 ## Why These Changes Matter
 
 ### Shortcomings of the standard uniform price auction
 
-Traditionally, with a fixed supply, there's a looming risk of plummeting prices. This phenomenon, identified by Wilson[^4], highlights a bidder's tendency to underbid. In multi-unit auctions, this is a critical challenge. In a uniform price auction, underbidding on the marginal unit doesn't just lower the price for that unit; it slashes the overall price you pay.
+Traditionally, with a fixed supply, there's a looming risk of plummeting prices. This phenomenon, identified by
+Wilson[^4], highlights a bidder's tendency to underbid. In multi-unit auctions, this is a critical challenge. In a
+uniform price auction, underbidding on the marginal unit doesn't just lower the price for that unit; it slashes the
+overall price you pay.
 
-The real danger of severe under-pricing hinges on demand factors, which are often unpredictable and not easily deduced from existing data. The debate over whether discriminatory or uniform price auctions yield higher revenue remains unresolved, both theoretically (as discussed by _Ausubel_ et al. 2011)[^5] and empirically.
+The real danger of severe under-pricing hinges on demand factors, which are often unpredictable and not easily deduced
+from existing data. The debate over whether discriminatory or uniform price auctions yield higher revenue remains
+unresolved, both theoretically (as discussed by _Ausubel_ et al. 2011)[^5] and empirically.
 
 ### Tie Breaking Rule
 
@@ -103,8 +111,6 @@ The supply function is designed to be initially concave, then constant at maximu
 supported by Licalzi[^6], aims to mitigate dramatic underpricing.
 
 ## Suggested Links
-
-
 
 ## Footnotes
 

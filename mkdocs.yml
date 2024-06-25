@@ -192,6 +192,7 @@ nav:
       - Auction Design: Learning/aup_auction.md
       - Primary Market: Learning/primary-market.md
       - Forward Contracts: Learning/Forward-Contracts.md
+      - Preconfirmations: Learning/preconfirmations.md
   # Disable Article
   #      - 'Secondary Market': 'Learning/secondary-market.md'
   - Relay:
