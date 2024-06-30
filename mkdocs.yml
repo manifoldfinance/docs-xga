@@ -193,6 +193,11 @@ nav:
       - Primary Market: Learning/primary-market.md
       - Forward Contracts: Learning/Forward-Contracts.md
       - Preconfirmations: Learning/preconfirmations.md
+      - Contracts:
+        - Auctioneer: Reference/Contracts/Auctioneer.md
+        - Bidder: Reference/Contracts/Bidder.md
+        - Accountant: Reference/Contracts/IAccountant.md
+        - Settlement House: Reference/Contracts/SettlementHouse.md
   # Disable Article
   #      - 'Secondary Market': 'Learning/secondary-market.md'
   - Relay:
