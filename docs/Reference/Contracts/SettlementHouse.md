@@ -7,9 +7,9 @@ description: SettlementHouse
 
 
 
-:::note Details
-A contract for managing bundles of transactions for a futures token.
-:::
+!!! note
+	
+	A contract for managing bundles of transactions for a futures token.
 
 
 ## Methods
@@ -109,7 +109,6 @@ event BundleSubmitted(address indexed sender, uint256 indexed slot, uint256 inde
 ```solidity title="Solidity"
 error Unauthorized()
 ```
-
 
 
 

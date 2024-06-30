@@ -7,9 +7,9 @@ description: Auctioneer Contract
 
 
 
-:::note Details
-Implements an auction mechanism for selling block space.
-:::
+!!! note
+	
+	Implements an auction mechanism for selling block space.
 
 
 ## Methods
@@ -64,9 +64,9 @@ function acceptOwnership() external nonpayable
 ```
 
 
-:::note Details
-The new owner accepts the ownership transfer.
-:::
+!!! info
+	
+	The new owner accepts the ownership transfer.
 
 
 
@@ -198,9 +198,9 @@ function bid(uint256 slot, uint256[] packedBids) external nonpayable
 ```
 
 
-:::note Details
-Bid function for bidders to submit manual bids.
-:::
+!!! info
+	
+	Bid function for bidders to submit manual bids.
 
 
 #### Parameters
@@ -265,9 +265,9 @@ function calcAverageBid(uint256 numAuctions) external view returns (uint128 avBi
 ```
 
 
-:::note Details
-Calculate average bid price for the last n auctions
-:::
+!!! info
+	
+	Calculate average bid price for the last n auctions
 
 
 #### Parameters
@@ -291,9 +291,9 @@ function changeOperator(address newOperator) external nonpayable
 ```
 
 
-:::note Details
-Change operator of the auction.
-:::
+!!! info
+	
+	Change operator of the auction.
 
 
 #### Parameters
@@ -311,9 +311,9 @@ function getBidderInfo(uint256 slot, address bidder) external view returns (uint
 ```
 
 
-:::note Details
-Retrieve information about a bidder after auction settlement.
-:::
+!!! info
+	
+	Retrieve information about a bidder after auction settlement.
 
 
 #### Parameters
@@ -417,9 +417,9 @@ function newBidder(address additionalBidder) external nonpayable returns (uint8 
 ```
 
 
-:::note Details
-Add a new bidder to the auction.
-:::
+!!! info
+	
+	Add a new bidder to the auction.
 
 
 #### Parameters
@@ -443,9 +443,9 @@ function openAuction(uint256 slot, uint120 itemsForSale) external nonpayable
 ```
 
 
-:::note Details
-Open a new auction for a specific slot.
-:::
+!!! info
+	
+	Open a new auction for a specific slot.
 
 
 #### Parameters
@@ -500,9 +500,9 @@ function packBid(uint128 bidPrice, uint120 itemsToBuy, uint8 bidderId) external 
 ```
 
 
-:::note Details
-Packed Bid details into a uint256 for submission.
-:::
+!!! info
+	
+	Packed Bid details into a uint256 for submission.
 
 
 #### Parameters
@@ -528,9 +528,9 @@ function payout(uint256 slot) external nonpayable
 ```
 
 
-:::note Details
-Payout revenue from auction to validators
-:::
+!!! info
+	
+	Payout revenue from auction to validators
 
 
 #### Parameters
@@ -566,9 +566,9 @@ function refund(uint256 slot) external nonpayable
 ```
 
 
-:::note Details
-Refund revenue from auction to bidders
-:::
+!!! info
+	
+	Refund revenue from auction to bidders
 
 
 #### Parameters
@@ -586,9 +586,9 @@ function removeBidder(uint8 bidderId) external nonpayable
 ```
 
 
-:::note Details
-Remove a bidder from the auction.
-:::
+!!! info
+	
+	Remove a bidder from the auction.
 
 
 #### Parameters
@@ -606,9 +606,9 @@ function runAndSettle(uint256 slot) external nonpayable
 ```
 
 
-:::note Details
-Execute the auction for a specific slot.
-:::
+!!! info
+	
+	Execute the auction for a specific slot.
 
 
 #### Parameters
@@ -765,9 +765,9 @@ function transferOwnership(address newOwner) external nonpayable
 ```
 
 
-:::note Details
-Starts the ownership transfer of the contract to a new account. Replaces the pending transfer if there is one. Can only be called by the current owner.
-:::
+!!! info
+	
+	Starts the ownership transfer of the contract to a new account. Replaces the pending transfer if there is one. Can only be called by the current owner.
 
 
 #### Parameters
@@ -785,9 +785,9 @@ function updateAccountant(address newAccountant) external nonpayable
 ```
 
 
-:::note Details
-update accountant address
-:::
+!!! info
+	
+	update accountant address
 
 
 #### Parameters
@@ -805,9 +805,9 @@ function updateMaxBids(uint256 newMaxBids) external nonpayable
 ```
 
 
-:::note Details
-update max num of bids per bidder
-:::
+!!! info
+	
+	update max num of bids per bidder
 
 
 #### Parameters
@@ -825,9 +825,9 @@ function updateMinGasAmount(uint120 newAmount) external nonpayable
 ```
 
 
-:::note Details
-update minGasAmount
-:::
+!!! info
+	
+	update minGasAmount
 
 
 #### Parameters
@@ -1073,7 +1073,6 @@ error AuctionAlreadyOpen(uint256 slot)
 
 
 
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1087,7 +1086,6 @@ error AuctionAlreadyOpen(uint256 slot)
 ```solidity title="Solidity"
 error AuctionAlreadySettled(uint256 slot)
 ```
-
 
 
 
@@ -1107,7 +1105,6 @@ error AuctionNotClosed(uint256 slot)
 
 
 
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1121,7 +1118,6 @@ error AuctionNotClosed(uint256 slot)
 ```solidity title="Solidity"
 error AuctionNotOpen(uint256 slot)
 ```
-
 
 
 
@@ -1141,7 +1137,6 @@ error BidderAlreadyExists(address bidder)
 
 
 
-
 #### Parameters
 
 | Name | Type | Description |
@@ -1155,7 +1150,6 @@ error BidderAlreadyExists(address bidder)
 ```solidity title="Solidity"
 error BidderNotRegistered(address bidder)
 ```
-
 
 
 
@@ -1176,7 +1170,6 @@ error InsufficientFunds()
 
 
 
-
 ### InvalidBidItems
 
 
@@ -1184,7 +1177,6 @@ error InsufficientFunds()
 ```solidity title="Solidity"
 error InvalidBidItems()
 ```
-
 
 
 
@@ -1200,7 +1192,6 @@ error InvalidId()
 
 
 
-
 ### Unauthorized
 
 
@@ -1208,7 +1199,6 @@ error InvalidId()
 ```solidity title="Solidity"
 error Unauthorized()
 ```
-
 
 
 

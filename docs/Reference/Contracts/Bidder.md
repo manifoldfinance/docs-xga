@@ -20,9 +20,9 @@ function getBid(uint256 slot) external view returns (uint256[] packedBids)
 ```
 
 
-:::note Details
-Get the bid from a bidder for a specific slot and round.
-:::
+!!! info
+	
+	Get the bid from a bidder for a specific slot and round.
 
 
 #### Parameters
