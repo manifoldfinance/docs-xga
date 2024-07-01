@@ -1,10 +1,10 @@
 ---
-description: Bidder
+title: Bidder
 ---
 
 # Bidder.sol
 
-> [Read code on GitHub](https://github.com/manifoldfinance/xga-auctioneer-v1/blob/maaster/src/Bidder.sol)
+> [Read code on GitHub](https://github.com/manifoldfinance/xga-auctioneer-v1/blob/master/src/Bidder.sol)
 
 ## Methods
 
@@ -14,7 +14,9 @@ description: Bidder
 function getBid(uint256 slot) external view returns (uint256[] packedBids)
 ```
 
-!!! info Get the bid from a bidder for a specific slot and round.
+!!! info 
+
+    Get the bid from a bidder for a specific slot and round.
 
 #### Parameters
 
