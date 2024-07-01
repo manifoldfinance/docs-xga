@@ -1,13 +1,13 @@
 {
   "name": "docs-xga",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "mkdocs website for XGA",
   "scripts": {
     "build": "mkdocs build -d public",
     "make": "bash build.sh",
     "vercel": "npx vercel deploy",
     "fmt": "npx prettier --config .prettierrc.js --write .",
-    "local-sitemap": "static-sitemap-cli --base http://localhost:8000 --no-clean --root public",
+    "local": "npx static-sitemap-cli --base http://127.0.0.1:8000/ --no-clean --root site",
     "sitemap": "npx static-sitemap-cli --base https://docs.xga.com --no-clean --root public"
   },
   "keywords": [

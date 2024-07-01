@@ -1,211 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>http://docs.xga.com/</loc>
-        <lastmod>2024-06-09T08:34:08.067Z</lastmod>
+        <loc>https://docs.xga.com/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.137Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Clients</loc>
-        <lastmod>2024-06-09T08:34:08.077Z</lastmod>
+        <loc>https://docs.xga.com/Clients/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.146Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Developers</loc>
-        <lastmod>2024-06-09T08:34:08.102Z</lastmod>
+        <loc>https://docs.xga.com/Developers/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.170Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Legal</loc>
-        <lastmod>2024-06-09T08:34:08.151Z</lastmod>
+        <loc>https://docs.xga.com/Legal/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.238Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Relay</loc>
-        <lastmod>2024-06-09T08:34:08.183Z</lastmod>
+        <loc>https://docs.xga.com/Relay/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.315Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/api</loc>
-        <lastmod>2024-06-09T08:34:08.207Z</lastmod>
+        <loc>https://docs.xga.com/api/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.338Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/blog</loc>
-        <lastmod>2024-06-09T08:34:08.348Z</lastmod>
+        <loc>https://docs.xga.com/blog/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.474Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/tmp</loc>
-        <lastmod>2024-06-09T08:34:08.073Z</lastmod>
+        <loc>https://docs.xga.com/tmp/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.142Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Clients/accounting</loc>
-        <lastmod>2024-06-09T08:34:08.080Z</lastmod>
+        <loc>https://docs.xga.com/Clients/accounting/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.149Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Clients/clients</loc>
-        <lastmod>2024-06-09T08:34:08.083Z</lastmod>
+        <loc>https://docs.xga.com/Clients/clients/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.152Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Clients/configuration</loc>
-        <lastmod>2024-06-09T08:34:08.088Z</lastmod>
+        <loc>https://docs.xga.com/Clients/configuration/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.157Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Clients/relay</loc>
-        <lastmod>2024-06-09T08:34:08.091Z</lastmod>
+        <loc>https://docs.xga.com/Clients/relay/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.159Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Clients/requirements</loc>
-        <lastmod>2024-06-09T08:34:08.096Z</lastmod>
+        <loc>https://docs.xga.com/Clients/requirements/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.164Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Clients/validators</loc>
-        <lastmod>2024-06-09T08:34:08.099Z</lastmod>
+        <loc>https://docs.xga.com/Clients/validators/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.167Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Developers/builders</loc>
-        <lastmod>2024-06-09T08:34:08.106Z</lastmod>
+        <loc>https://docs.xga.com/Developers/builders/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.175Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Developers/interface</loc>
-        <lastmod>2024-06-09T08:34:08.118Z</lastmod>
+        <loc>https://docs.xga.com/Developers/interface/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.186Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Developers/mainnet</loc>
-        <lastmod>2024-06-09T08:34:08.121Z</lastmod>
+        <loc>https://docs.xga.com/Developers/mainnet/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.189Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Developers/payment-methods</loc>
-        <lastmod>2024-06-09T08:34:08.123Z</lastmod>
+        <loc>https://docs.xga.com/Developers/payment-methods/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.191Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Developers/sdk</loc>
-        <lastmod>2024-06-09T08:34:08.132Z</lastmod>
+        <loc>https://docs.xga.com/Developers/sdk/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.200Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Developers/testnet</loc>
-        <lastmod>2024-06-09T08:34:08.135Z</lastmod>
+        <loc>https://docs.xga.com/Developers/testnet/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.203Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Learning/Forward-Contracts</loc>
-        <lastmod>2024-06-09T08:34:08.138Z</lastmod>
+        <loc>https://docs.xga.com/Developers/walkthrough/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.220Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Learning/aup_auction</loc>
-        <lastmod>2024-06-09T08:34:08.141Z</lastmod>
+        <loc>https://docs.xga.com/Learning/Forward-Contracts/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.222Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Learning/flashbots-comparison</loc>
-        <lastmod>2024-06-09T08:34:08.144Z</lastmod>
+        <loc>https://docs.xga.com/Learning/aup_auction/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.225Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Learning/primary-market</loc>
-        <lastmod>2024-06-09T08:34:08.146Z</lastmod>
+        <loc>https://docs.xga.com/Learning/flashbots-comparison/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.228Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Learning/secondary-market</loc>
-        <lastmod>2024-06-09T08:34:08.148Z</lastmod>
+        <loc>https://docs.xga.com/Learning/preconfirmations/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.231Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Legal/CDD</loc>
-        <lastmod>2024-06-09T08:34:08.153Z</lastmod>
+        <loc>https://docs.xga.com/Learning/primary-market/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.234Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Legal/Content-Disclaimer</loc>
-        <lastmod>2024-06-09T08:34:08.155Z</lastmod>
+        <loc>https://docs.xga.com/Learning/secondary-market/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.236Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Legal/Disclosure-Statement</loc>
-        <lastmod>2024-06-09T08:34:08.157Z</lastmod>
+        <loc>https://docs.xga.com/Legal/CDD/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.240Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Reference/constants</loc>
-        <lastmod>2024-06-09T08:34:08.162Z</lastmod>
+        <loc>https://docs.xga.com/Legal/Content-Disclaimer/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.242Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Reference/contract_design</loc>
-        <lastmod>2024-06-09T08:34:08.164Z</lastmod>
+        <loc>https://docs.xga.com/Legal/Disclosure-Statement/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.244Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Reference/contract_summary</loc>
-        <lastmod>2024-06-09T08:34:08.167Z</lastmod>
+        <loc>https://docs.xga.com/Reference/constants/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.249Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Reference/erc6909</loc>
-        <lastmod>2024-06-09T08:34:08.175Z</lastmod>
+        <loc>https://docs.xga.com/Reference/contract_design/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.251Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Reference/glossary</loc>
-        <lastmod>2024-06-09T08:34:08.178Z</lastmod>
+        <loc>https://docs.xga.com/Reference/contract_summary/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.254Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Reference/rpc-payload</loc>
-        <lastmod>2024-06-09T08:34:08.180Z</lastmod>
+        <loc>https://docs.xga.com/Reference/erc6909/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.262Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Relay/captive-insurance</loc>
-        <lastmod>2024-06-09T08:34:08.188Z</lastmod>
+        <loc>https://docs.xga.com/Reference/glossary/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.265Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Rulebook/bylaws</loc>
-        <lastmod>2024-06-09T08:34:08.190Z</lastmod>
+        <loc>https://docs.xga.com/Reference/rpc-payload/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.267Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Rulebook/definitions</loc>
-        <lastmod>2024-06-09T08:34:08.192Z</lastmod>
+        <loc>https://docs.xga.com/Relay/captive-insurance/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.319Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Rulebook/delivery-and-settlement</loc>
-        <lastmod>2024-06-09T08:34:08.194Z</lastmod>
+        <loc>https://docs.xga.com/Rulebook/bylaws/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.321Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Rulebook/general</loc>
-        <lastmod>2024-06-09T08:34:08.196Z</lastmod>
+        <loc>https://docs.xga.com/Rulebook/definitions/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.323Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Rulebook/governance</loc>
-        <lastmod>2024-06-09T08:34:08.197Z</lastmod>
+        <loc>https://docs.xga.com/Rulebook/delivery-and-settlement/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.325Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Rulebook/network-clearing-participants</loc>
-        <lastmod>2024-06-09T08:34:08.200Z</lastmod>
+        <loc>https://docs.xga.com/Rulebook/general/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.327Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Rulebook/obligations</loc>
-        <lastmod>2024-06-09T08:34:08.202Z</lastmod>
+        <loc>https://docs.xga.com/Rulebook/governance/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.329Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/Rulebook/suspension</loc>
-        <lastmod>2024-06-09T08:34:08.204Z</lastmod>
+        <loc>https://docs.xga.com/Rulebook/network-clearing-participants/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.331Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/api/beta-auction</loc>
-        <lastmod>2024-06-09T08:34:08.219Z</lastmod>
+        <loc>https://docs.xga.com/Rulebook/obligations/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.333Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/api/bundle</loc>
-        <lastmod>2024-06-09T08:34:08.236Z</lastmod>
+        <loc>https://docs.xga.com/Rulebook/suspension/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.334Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/api/relay</loc>
-        <lastmod>2024-06-09T08:34:08.343Z</lastmod>
+        <loc>https://docs.xga.com/api/beta-auction/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.349Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/api/signature-scheme</loc>
-        <lastmod>2024-06-09T08:34:08.346Z</lastmod>
+        <loc>https://docs.xga.com/api/bundle/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.365Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/newsletter/0_newsletter_index</loc>
-        <lastmod>2024-06-09T08:34:08.353Z</lastmod>
+        <loc>https://docs.xga.com/api/relay/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.468Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/newsletter/2024_05_24</loc>
-        <lastmod>2024-06-09T08:34:08.355Z</lastmod>
+        <loc>https://docs.xga.com/api/signature-scheme/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.473Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/newsletter/2024_05_25</loc>
-        <lastmod>2024-06-09T08:34:08.357Z</lastmod>
+        <loc>https://docs.xga.com/newsletter/0_newsletter_index/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.479Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/release/stable</loc>
-        <lastmod>2024-06-09T08:34:08.359Z</lastmod>
+        <loc>https://docs.xga.com/newsletter/2024_05_24/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.481Z</lastmod>
     </url>
     <url>
-        <loc>http://docs.xga.com/blog/posts/v0-roadmap</loc>
-        <lastmod>2024-06-09T08:34:08.351Z</lastmod>
+        <loc>https://docs.xga.com/newsletter/2024_05_25/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.483Z</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.xga.com/release/stable/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.484Z</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.xga.com/Reference/Contracts/Auctioneer/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.294Z</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.xga.com/Reference/Contracts/Bidder/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.297Z</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.xga.com/Reference/Contracts/IAccountant/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.300Z</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.xga.com/Reference/Contracts/IERC6909/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.308Z</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.xga.com/Reference/Contracts/SettlementHouse/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.312Z</lastmod>
+    </url>
+    <url>
+        <loc>https://docs.xga.com/blog/posts/v0-roadmap/index.html</loc>
+        <lastmod>2024-06-30T10:03:45.477Z</lastmod>
     </url>
 </urlset>
