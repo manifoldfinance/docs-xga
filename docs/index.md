@@ -115,7 +115,6 @@ supported by Licalzi[^6], aims to mitigate dramatic underpricing.
 | URL                                                              | Description                     |
 | ---------------------------------------------------------------- | ------------------------------- |
 | [eth.xga.com](https://eth.xga.com)                               | auction mev-boost-relay         |
-| [dashboard-auth.xga.com](https://dashboard-auth.xga.com)         | mainnet dashboard               |
 | [blockscout.xga.com](https://blockscout.xga.com)                 | blockscout                      |
 | [rpc.xga.com](https://rpc.xga.com)                               | mainnet RPC                     |
 | [op.xga.com](https://op.xga.com)                                 | mainnet XGA RPC                 |
