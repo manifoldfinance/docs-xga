@@ -1,5 +1,5 @@
 ---
-description: Auctioneer Contract
+title: Auctioneer Contract
 ---
 
 # Auctioneer.sol
@@ -8,7 +8,7 @@ description: Auctioneer Contract
 
 !!! note
 
-Implements an auction mechanism for selling block space.
+  Implements an auction mechanism for selling block space.
 
 ## Methods
 

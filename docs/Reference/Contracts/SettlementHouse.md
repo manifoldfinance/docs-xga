@@ -1,8 +1,8 @@
 ---
-description: SettlementHouse
+title: SettlementHouse
 ---
 
-# SettlementHouse.sol
+## SettlementHouse.sol
 
 > [Read code on GitHub](https://github.com/manifoldfinance/xga-auctioneer-v1/blob/master/src/SettlementHouse.sol)
 
