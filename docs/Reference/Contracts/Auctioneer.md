@@ -6,9 +6,9 @@ description: Auctioneer Contract
 
 > [Read code on GitHub](https://github.com/manifoldfinance/xga-auctioneer-v1/blob/master/src/Auctioneer.sol)
 
-!!! note 
+!!! note
 
-  Implements an auction mechanism for selling block space.
+Implements an auction mechanism for selling block space.
 
 ## Methods
 

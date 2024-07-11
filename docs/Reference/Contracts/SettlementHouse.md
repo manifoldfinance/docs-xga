@@ -6,7 +6,7 @@ description: SettlementHouse
 
 > [Read code on GitHub](https://github.com/manifoldfinance/xga-auctioneer-v1/blob/master/src/SettlementHouse.sol)
 
-!!! note 
+!!! note
 
     A contract for managing bundles of transactions for a futures token.
 
