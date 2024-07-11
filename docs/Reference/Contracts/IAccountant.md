@@ -1,10 +1,10 @@
 ---
-description: IAccountant
+title: Interface Accountant
 ---
 
 # IAccountant.sol
 
-> [Read code on GitHub](https://github.com/manifoldfinance/xga-auctioneer-v1/blob/maaster/src/IAccountant.sol)
+> [Read code on GitHub](https://github.com/manifoldfinance/xga-auctioneer-v1/blob/master/src/IAccountant.sol)
 
 ## Methods
 
