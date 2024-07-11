@@ -112,6 +112,19 @@ supported by Licalzi[^6], aims to mitigate dramatic underpricing.
 
 ## Suggested Links
 
+| URL                                                              | Description                     |
+| ---------------------------------------------------------------- | ------------------------------- |
+| [eth.xga.com](https://eth.xga.com)                               | auction mev-boost-relay         |
+| [dashboard-auth.xga.com](https://dashboard-auth.xga.com)         | mainnet dashboard               |
+| [blockscout.xga.com](https://blockscout.xga.com)                 | blockscout                      |
+| [rpc.xga.com](https://rpc.xga.com)                               | mainnet RPC                     |
+| [op.xga.com](https://op.xga.com)                                 | mainnet XGA RPC                 |
+| [holesky-dashboard.xga.com](https://holesky-dashboard.xga.com)   | holesky auction stash board     |
+| [holesky-blockscout.xga.com](https://holesky-blockscout.xga.com) | holesky blockscout              |
+| [holesky-op.xga.com](https://holesky-op.xga.com)                 | holesky XGA RPC                 |
+| [holesky-eth.xga.com](https://holesky-eth.xga.com)               | holesky auction mev-boost-relay |
+| [holesky-rpc.xga.com](https://holesky-rpc.xga.com)               | holesky RPC                     |
+
 ## Footnotes
 
 [^1]: Previously this was called 'above'

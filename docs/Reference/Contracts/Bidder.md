@@ -14,7 +14,7 @@ title: Bidder
 function getBid(uint256 slot) external view returns (uint256[] packedBids)
 ```
 
-!!! info 
+!!! info
 
     Get the bid from a bidder for a specific slot and round.
 
