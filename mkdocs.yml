@@ -178,6 +178,7 @@ markdown_extensions:
 
 nav:
   - index.md
+  - Cheat Sheet: cheatsheet.md
   - Developers:
       - Getting Started: Developers/index.md
       - Walkthrough Guide: Developers/walkthrough.md
