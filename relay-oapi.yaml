@@ -1208,14 +1208,7 @@ paths:
               example:
                 code: 500
                 message: internal server error
-security:
-  - JWT: []
 components:
-  securitySchemes:
-    JWT:
-      type: http
-      scheme: bearer
-      bearerFormat: JWT
   schemas:
     Uint64:
       type: string
